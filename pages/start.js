@@ -1,9 +1,9 @@
-import StartButton from '../comps/start-button';
-export default function Start(){ 
+import StartButton from "../comps/start-button";
 
-
-<div> 
-    <h1> hi</h1>
-<StartButton />
-</div>
+export default function Start() {
+  return (
+    <div>
+      <StartButton />
+    </div>
+  );
 }
