@@ -41,6 +41,7 @@ export default function About() {
         MDIA - 2106<br></br>
         Set - A
       </Names>
+      
       <Back></Back>
     </FullPage>
   );
