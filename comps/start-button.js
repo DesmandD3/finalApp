@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
-export default function StartButton() {
-  const StyledStart = styled.button`
-    width: 200px;
-    height: 80px;
-    background-color: #71f099;
-    color: #f5fcc9;
-  `;
+const Start = styled.button`
+  width: 200px;
+  height: 70px;
+  background-color: #71f099;
+  color: #fefae0;
+  font-size: 40px;
+  border-radius: 10px;
+`;
 
-  return <button>Start</button>;
+export default function StartButton() {
+  return <Start> Start </Start>
 }
