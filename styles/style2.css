@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to bottom, #003472 0%, #003472 55%, #38764B 55%, #38764B 100%) ;
+    height: 100vh;
+    overflow: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #758998;
+    color: #003472;
+}
+.logo{
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+.navbar-links li{
+    list-style: none;
+}
+.navbar-links li a{
+    text-decoration: none;
+    color: #003472;
+    padding: 1rem;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+.navbar-links li:hover{
+    background-color: grey;
+}
+.toggle{
+    position:absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle .bar{
+    height: 3px;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    
+}
+.sec{
+    overflow: hidden;
+}
+.moon{
+    display: flex;
+    max-width: 39vh;
+    overflow: hidden;
+   justify-content: flex-end;
+   position: relative;
+   left: 90px;
+   top: 110px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: white;
+}
+.path{
+    display:flex;
+    font-size: 20px;
+    
+}
+.para{
+    display:flex;
+    font-size: 15px;
+}
+.light{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 550px;
+    top:-420px;
+    left: -190px;
+}
+.tent{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 450px;
+    bottom: 180px;
+    left: -60px;
+}
+.man{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -30px;
+    bottom: 250px;
+    max-width: fit-content;
+    z-index: 2;
+}
+.garbage{
+    display: flex;
+    overflow: hidden;
+    max-width: max-content;
+    position: relative;
+    flex-direction: column;
+    left: 120px;
+    bottom: 320px;
+    z-index: 2;
+}
+@media screen and (max-width: 500px) {
+    .toggle{
+        display: flex;
+        z-index: 1;
+    }
+    .navbar-links{
+        display: none;
+        width: 100%;
+        z-index: 1;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        min-width: 47vh;
+        z-index: 1;
+    }
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+        z-index: 1;
+    }
+    .navbar-links li{
+        text-align: center;
+        z-index: 1;
+    }
+    .navbar-links li a{
+        padding: 0.5rem 1rem;
+        z-index: 1;
+    }
+    .navbar-links.active{
+        display: flex;
+        z-index: 1;
+    }
+
+}
