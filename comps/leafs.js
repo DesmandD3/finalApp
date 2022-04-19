@@ -10,6 +10,7 @@ const Leaf = styled.div`
     height: 25px;
     background-color: orange;
     position: absolute;
+    top: -25px;
     left: 50%;
     animation: leaf 5s ease-in-out -2s 1;
     transform-origin: center;
@@ -75,7 +76,7 @@ const Leaf = styled.div`
   }
 `;
 
-export default function test() {
+export default function Leafs() {
   return (
     <Leaf className="container">
       <Leaf className="leaf"></Leaf>
