@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Start = styled.button`
+const Tutorial = styled.button`
   width: 200px;
   height: 70px;
   background-color: #71f099;
@@ -9,6 +9,6 @@ const Start = styled.button`
   border-radius: 10px;
 `;
 
-export default function StartButton() {
-  return <Start> Start </Start>
+export default function TutorialButton() {
+  return <Tutorial>Tutorial</Tutorial>
 }
