@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { useRouter } from "next/router";
 
 const Start = styled.button`
   width: 200px;
@@ -10,5 +11,8 @@ const Start = styled.button`
 `;
 
 export default function StartButton() {
-  return <Start> Start </Start>
+  const r = useRouter();
+  return (
+    <Start onClick={() => r.replace({ pathname: "/aboutUs" })}> Start </Start>
+  );
 }

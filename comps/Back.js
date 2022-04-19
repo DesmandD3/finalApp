@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { useRouter } from "next/router";
 const Back = styled.button`
   width: 200px;
   height: 70px;
@@ -10,5 +10,6 @@ const Back = styled.button`
 `;
 
 export default function BackButton() {
-  return <Back>Back</Back>;
+  const r = useRouter();
+  return <Back onClick={() => r.replace({ pathname: "/start" })}>Back</Back>;
 }
