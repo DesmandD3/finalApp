@@ -120,7 +120,7 @@ body{
     position: relative;
     flex-direction: column;
     left: 120px;
-    bottom: 321px;
+    bottom: 320px;
     z-index: 2;
 }
 @media screen and (max-width: 500px) {

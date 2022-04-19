@@ -110,7 +110,7 @@ body{
     flex-direction: column;
     position: absolute;
     left: -30px;
-    bottom: 251px;
+    bottom: 250px;
     max-width: fit-content;
     z-index: 2;
 }
