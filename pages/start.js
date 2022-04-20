@@ -17,11 +17,24 @@ const FullPage = styled.div`
   justify-items: center;
 `;
 
+const Header = styled.h1`
+  font-size: 48px;
+  color: fefae0;
+  color: #fefae0;
+`;
+
+const PageTitle = styled.h2`
+  font-size: 24px;
+  color: #fefae0;
+`;
+
 export default function Start() {
   return (
     <div>
       <Leafs />
       <FullPage>
+        <Header>Pathfinders</Header>
+        <PageTitle>Imagine the Story</PageTitle>
         <StartButton></StartButton>
         <TutorialButton> </TutorialButton>
       </FullPage>
