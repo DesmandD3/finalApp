@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Back from "../comps/Back";
+import Leafs from "../comps/leafs";
 import img from "../assets/lampPostShining.png";
 
 const FullPage = styled.div`
@@ -39,6 +40,7 @@ const BackImg = styled.div`
 export default function About() {
   return (
     <BackImg>
+      <Leafs />
       <FullPage>
         <PageTitle>About Us</PageTitle>
         <Header> Pathfinders </Header>

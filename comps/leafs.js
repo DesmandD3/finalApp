@@ -12,7 +12,7 @@ const Leaf = styled.div`
     position: absolute;
     top: -25px;
     left: 50%;
-    animation: leaf 5s ease-in-out -2s 1;
+    animation: leaf 5s ease-in-out -2s 2;
     transform-origin: center;
     border-radius: 100% 0;
   }
