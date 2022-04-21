@@ -3,8 +3,7 @@ import SmallNext from "../comps/smNext";
 import Textbub from "../comps/Textbubble";
 import BackButton from "../comps/Back";
 import StartButton from "../comps/start-button";
-import TutorialButton from "../comps/Tutorialbutton";
-import WButton from "../comps/waysButton";
+import WayButton from "../comps/waysButton";
 
 export default function test() {
   return (
@@ -14,10 +13,10 @@ export default function test() {
       <SmallBack />
       <SmallNext />
       <Textbub />
+      <WayButton />
       <BackButton />
       <StartButton />
-      <TutorialButton />
-      <WButton />
+      
     </div>
   );
 }
