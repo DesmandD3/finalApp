@@ -1,5 +1,4 @@
 import StartButton from "../comps/start-button";
-import TutorialButton from "../comps/Tutorialbutton";
 import Leafs from "../comps/leafs";
 import styled from "styled-components";
 
