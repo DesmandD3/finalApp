@@ -18,11 +18,6 @@ export default function test() {
       <WayButton />
       <BackButton />
       <StartButton />
-      <br></br>
-      <Choice></Choice>
-      <br></br>
-      <Links></Links>
-      <CharityButton></CharityButton>
     </div>
   );
 }

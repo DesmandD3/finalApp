@@ -13,6 +13,5 @@ const WayButton = styled.button`
 `;
 
 export default function WButton() {
-  return  <WayButton>Ways To Help</WayButton>;
-  
+  return <WayButton>Ways To Help</WayButton>;
 }
