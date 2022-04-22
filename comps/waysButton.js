@@ -6,7 +6,7 @@ const WayButton = styled.button`
   border-radius: 10px;
   width: 180px;
   height: 60px;
-  font-size: 22px;
+  font-size: 24px;
   border-color: #71f099;
   margin: 5px;
   border-width: 2px;
