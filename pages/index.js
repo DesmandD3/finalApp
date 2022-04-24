@@ -4,6 +4,7 @@ import styled from "styled-components";
 import Moon from "../comps/Moon";
 import Lamp from "../comps/Lamp";
 import Navbar from "../comps/nav/navbar";
+import AboutButton from "../comps/aboutButton";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
@@ -49,6 +50,7 @@ export default function Start() {
         <Header>Pathfinders</Header>
         <PageTitle>Imagine the Story</PageTitle>
         <StartButton />
+        <AboutButton />
       </FullPage>
     </div>
   );
