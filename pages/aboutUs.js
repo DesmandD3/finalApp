@@ -9,27 +9,28 @@ const FullPage = styled.div`
   text-align: center;
   font-family: "Fira Sans", sans-serif;
 
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  display: flex;
+  flex-direction: column;
   justify-items: center;
+  align-items: center;
+  height: 844px;
 `;
 
 const Header = styled.h1`
   font-size: 48px;
   color: fefae0;
+  margin-top: 50px;
   color: #fefae0;
 `;
 
 const PageTitle = styled.h2`
   font-size: 24px;
   color: #fefae0;
+  margin-top: 70px;
 `;
 
 const Names = styled.p`
-  font-size: 18px;
+  font-size: 25px;
   color: #fefae0;
 `;
 

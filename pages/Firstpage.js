@@ -1,9 +1,8 @@
-import StartButton from "../comps/start-button";
-import TutorialButton from "../comps/Tutorialbutton";
 import Leafs from "../comps/leafs";
 import styled from "styled-components";
 import Moon from "../comps/Moon";
-import Lamp from "../comps/Lamp";
+import Man from "../comps/man";
+import House from "../comps/House";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
@@ -19,18 +18,7 @@ const FullPage = styled.div`
   overflow: hidden;
 `;
 
-const Header = styled.h1`
-  font-size: 48px;
-  margin-top: 180px;
-  color: fefae0;
-  color: #fefae0;
-`;
 
-const PageTitle = styled.h2`
-  font-size: 24px;
-  color: #fefae0;
-  margin-bottom: 120px;
-`;
 
 
 export default function Start() {
@@ -38,12 +26,9 @@ export default function Start() {
     <div>
       <Leafs />
       <FullPage>
-      <Lamp />
         <Moon />
-        <Header>Pathfinders</Header>
-        <PageTitle>Imagine the Story</PageTitle>
-        <StartButton></StartButton>
-        <TutorialButton> </TutorialButton>
+        <House/>
+        <Man/>
       </FullPage>
     </div>
   );
