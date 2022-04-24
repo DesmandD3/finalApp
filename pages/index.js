@@ -48,7 +48,7 @@ export default function Start() {
         <Moon />
         <Header>Pathfinders</Header>
         <PageTitle>Imagine the Story</PageTitle>
-        <StartButton></StartButton>
+        <StartButton />
       </FullPage>
     </div>
   );
