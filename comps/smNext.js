@@ -12,8 +12,6 @@ const SmallNext = styled.button`
 export default function SmallNextbutton() {
   const r = useRouter();
   return (
-    <SmallNext onClick={() => r.replace({ pathname: "/waystohelp" })}>
-      Next
-    </SmallNext>
+    <SmallNext onClick={() => r.replace({ pathname: "/w" })}>Next</SmallNext>
   );
 }
