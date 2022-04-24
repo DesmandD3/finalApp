@@ -1,5 +1,4 @@
 import StartButton from "../comps/start-button";
-import TutorialButton from "../comps/Tutorialbutton";
 import Leafs from "../comps/leafs";
 import styled from "styled-components";
 import Moon from "../comps/Moon";
@@ -43,7 +42,6 @@ export default function Start() {
         <Header>Pathfinders</Header>
         <PageTitle>Imagine the Story</PageTitle>
         <StartButton></StartButton>
-        <TutorialButton> </TutorialButton>
       </FullPage>
     </div>
   );
