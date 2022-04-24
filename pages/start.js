@@ -2,6 +2,7 @@ import StartButton from "../comps/start-button";
 import AboutButton from "../comps/aboutButton";
 import Leafs from "../comps/leafs";
 import styled from "styled-components";
+import Navbar from "../comps/Nav/navbar";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
@@ -32,6 +33,7 @@ export default function Start() {
   return (
     <div>
       <Leafs />
+      <Navbar />
       <FullPage>
         <Header>Pathfinders</Header>
         <PageTitle>Imagine the Story</PageTitle>
