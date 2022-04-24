@@ -13,6 +13,6 @@ const Start = styled.button`
 export default function StartButton() {
   const r = useRouter();
   return (
-    <Start onClick={() => r.replace({ pathname: "/aboutUs" })}> Start </Start>
+    <Start onClick={() => r.replace({ pathname: "/Firstpage" })}> Start </Start>
   );
 }
