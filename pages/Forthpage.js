@@ -38,6 +38,8 @@ export default function Start() {
         <Man />
         <Tent />
         <Choice />
+        <Choice />
+        <Choice />
         <SmallBackbutton />
         <SmallNextbutton />
       </FullPage>
