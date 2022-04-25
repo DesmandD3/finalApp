@@ -6,7 +6,6 @@ function House() {
     <div>
       <img
         style={{
-          zIndex: -1,
           display: "flex",
           position: "absolute",
           top: 130,
