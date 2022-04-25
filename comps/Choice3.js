@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import styled from "styled-components";
 
-const ChoiceButton = styled.button`
+const ChoiceButton3 = styled.button`
   background-color: #41658a;
   color: #fefae0;
   height: 78px;
@@ -27,16 +27,16 @@ const ChoiceButton = styled.button`
 //   grid-row-gap: 0px;
 // `;
 
-export default function Choice() {
+export default function Choice3() {
   const r = useRouter();
   return (
     // <CheatGrid>
-    (<ChoiceButton> Drugs/Narcotics </ChoiceButton>),
-    (<ChoiceButton> Alcohol</ChoiceButton>),
+    (<ChoiceButton3> Drugs/Narcotics </ChoiceButton3>),
+    (<ChoiceButton3> Alcohol</ChoiceButton3>),
     (
-      <ChoiceButton onClick={() => r.replace({ pathname: "/Fifthpage" })}>
-        Crime
-      </ChoiceButton>
+      <ChoiceButton3 onClick={() => r.replace({ pathname: "/results" })}>
+        Low - Several shelter and aid options
+      </ChoiceButton3>
     )
     // </CheatGrid>
   );
