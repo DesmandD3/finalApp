@@ -10,10 +10,10 @@ function Tent(){
             <img style={{
                 display: 'flex',
                 position: 'relative',
-                top: -320,
+                bottom: 320,
                 left:30,
-                width:900,
-                objectFit:'contain',
+                width:800,
+                objectFit: 'contain',
                 }} src='/tent.svg' />
             
         </div>

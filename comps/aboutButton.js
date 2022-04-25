@@ -8,6 +8,7 @@ const About = styled.button`
   color: #fefae0;
   font-size: 40px;
   border-radius: 10px;
+  margin: 20px;
 `;
 
 export default function AboutButton() {

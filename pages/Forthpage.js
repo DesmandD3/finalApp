@@ -3,6 +3,9 @@ import styled from "styled-components";
 import Moon from "../comps/Moon";
 import Man from "../comps/man";
 import Tent from "../comps/tent";
+import SmallNextbutton from "../comps/smNext";
+import SmallBackbutton from "../comps/smBack";
+import Navbar from "../comps/nav/navbar";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
@@ -26,9 +29,12 @@ export default function Start() {
     <div>
         <Leafs/>
       <FullPage>
+      <Navbar />
         <Moon />
         <Man/>
         <Tent/>
+        <SmallBackbutton />
+        <SmallNextbutton /> 
       </FullPage>
     </div>
   );
