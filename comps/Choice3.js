@@ -11,6 +11,7 @@ const ChoiceButton3 = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: auto;
   position: absolute;
   margin-left: 15px;
   margin-right: 15px;
