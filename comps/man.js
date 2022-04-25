@@ -10,10 +10,10 @@ function Man(){
             <img style={{
                 display: 'flex',
                 position: 'absolute',
-                top: 150,
+                top: 75,
                 right: 10,
+                zIndex:1,
                 objectFit:'contain',
-                zIndex: 1,
                 }} src='/Man.svg' />
             
         </div>

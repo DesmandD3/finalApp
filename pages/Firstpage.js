@@ -12,8 +12,8 @@ const FullPage = styled.div`
   background: linear-gradient(
     to bottom,
     #003472 0%,
-    #003472 70%,
-    #758998 70%,
+    #003472 65%,
+    #758998 65%,
     #758998 100%
   );
   text-align: center;
@@ -36,10 +36,8 @@ export default function Start() {
         <Moon />
         <House />
         <Man />
-        <div>
           <SmallBackbutton />
           <SmallNextbutton />
-        </div>
       </FullPage>
     </div>
   );

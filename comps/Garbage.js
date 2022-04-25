@@ -10,9 +10,8 @@ function Garbage(){
             <img style={{
                 display: 'flex',
                 position: 'absolute',
-                top: 500,
+                top: 450,
                 width:180,
-                zIndex:1,
                 objectFit:'contain',
                 }} src='/Garbage.svg' />
             

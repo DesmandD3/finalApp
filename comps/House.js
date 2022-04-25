@@ -8,7 +8,7 @@ function House() {
         style={{
           display: "flex",
           position: "absolute",
-          top: 130,
+          top: 80,
           left: 30,
           width: 350,
           objectFit: "contain",
