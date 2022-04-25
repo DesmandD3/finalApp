@@ -15,8 +15,23 @@ const ChoiceButton = styled.button`
   margin-right: 15px;
   margin-top: 520px;
   text-align: centered;
+  z-index: 2;
 `;
 
+// const CheatGrid = styled.div`
+//   display: grid;
+//   grid-template-columns: 1fr;
+//   grid-template-rows: repeat(3, 1fr);
+//   grid-column-gap: 0px;
+//   grid-row-gap: 0px;
+// `;
+
 export default function Choice() {
-  return <ChoiceButton> Financial Troubles </ChoiceButton>;
+  return (
+    // <CheatGrid>
+    (<ChoiceButton> Drugs/Narcotics </ChoiceButton>),
+    (<ChoiceButton> Alcohol</ChoiceButton>),
+    (<ChoiceButton> Crime</ChoiceButton>)
+    // </CheatGrid>
+  );
 }
