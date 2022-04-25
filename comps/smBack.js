@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { useRouter } from "next/router";
 
 const SmallBack = styled.button`
   background-color: #41658a;
@@ -16,5 +17,8 @@ const SmallBack = styled.button`
 `;
 
 export default function SmallBackbutton() {
-  return <SmallBack>Back</SmallBack>;
+  const r = useRouter();
+  return (
+    <SmallBack onClick={() => r.replace({ pathname: "/w" })}>Back</SmallBack>
+  );
 }

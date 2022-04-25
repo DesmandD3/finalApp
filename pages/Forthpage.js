@@ -6,10 +6,17 @@ import Tent from "../comps/tent";
 import SmallNextbutton from "../comps/smNext";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
+import Choice from "../comps/ChoiceButton";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
-  background:linear-gradient(to bottom, #003472 0%, #003472 50%, #38764B 50%, #38764B 100%) ;
+  background: linear-gradient(
+    to bottom,
+    #003472 0%,
+    #003472 50%,
+    #38764b 50%,
+    #38764b 100%
+  );
   text-align: center;
   font-family: "Fira Sans", sans-serif;
   display: flex;
@@ -21,20 +28,18 @@ const FullPage = styled.div`
   overflow: hidden;
 `;
 
-
-
-
 export default function Start() {
   return (
     <div>
-        <Leafs/>
+      <Leafs />
       <FullPage>
-      <Navbar />
+        <Navbar />
         <Moon />
-        <Man/>
-        <Tent/>
+        <Man />
+        <Tent />
+        <Choice />
         <SmallBackbutton />
-        <SmallNextbutton /> 
+        <SmallNextbutton />
       </FullPage>
     </div>
   );

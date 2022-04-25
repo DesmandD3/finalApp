@@ -9,6 +9,11 @@ const About = styled.button`
   font-size: 40px;
   border-radius: 10px;
   margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top 700px;
 `;
 
 export default function AboutButton() {

@@ -6,6 +6,7 @@ import House from "../comps/House";
 import SmallNextbutton from "../comps/smNext";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
+import TextBubble from "../comps/Textbubble";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
@@ -36,8 +37,9 @@ export default function Start() {
         <Moon />
         <House />
         <Man />
-          <SmallBackbutton />
-          <SmallNextbutton />
+        <TextBubble />
+        <SmallBackbutton />
+        <SmallNextbutton />
       </FullPage>
     </div>
   );

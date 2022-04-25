@@ -8,6 +8,11 @@ const Start = styled.button`
   color: #fefae0;
   font-size: 40px;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 600px;
 `;
 
 export default function StartButton() {

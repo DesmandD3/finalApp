@@ -5,8 +5,7 @@ import BackButton from "../comps/Back";
 import StartButton from "../comps/start-button";
 import WayButton from "../comps/waysButton";
 import Choice from "../comps/ChoiceButton";
-import Links from "../comps/LinkButton";
-import CharityButton from "../comps/Charity";
+import Text1 from "../comps/Textbuble1";
 export default function test() {
   return (
     <div>
@@ -18,6 +17,8 @@ export default function test() {
       <WayButton />
       <BackButton />
       <StartButton />
+      <Choice />
+      <Text1 />
     </div>
   );
 }
