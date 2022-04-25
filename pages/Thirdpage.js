@@ -7,10 +7,17 @@ import Garbage from "../comps/Garbage";
 import SmallNextbutton from "../comps/smNext";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
+import Choice1 from "../comps/Choice1";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
-  background:linear-gradient(to bottom, #003472 0%, #003472 65%, #758998 65%, #758998 100%) ;
+  background: linear-gradient(
+    to bottom,
+    #003472 0%,
+    #003472 65%,
+    #758998 65%,
+    #758998 100%
+  );
   text-align: center;
   font-family: "Fira Sans", sans-serif;
   display: flex;
@@ -22,20 +29,18 @@ const FullPage = styled.div`
   overflow: hidden;
 `;
 
-
-
-
 export default function Start() {
   return (
     <div>
       <FullPage>
-      <Navbar />
+        <Navbar />
         <Moon />
-        <House/>
-        <Man/>
-        <Garbage/>
+        <House />
+        <Man />
+        <Garbage />
+        <Choice1 />
         <SmallBackbutton />
-        <SmallNextbutton /> 
+        <SmallNextbutton />
       </FullPage>
     </div>
   );
