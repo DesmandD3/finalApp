@@ -36,8 +36,8 @@ export default function Start() {
         <Moon />
         <Man />
         <Choice3 />
-        <SmallBackbutton />
-        <SmallNextbutton />
+        <SmallBackbutton path="/Forthpage" />
+        <SmallNextbutton path="/results" />
       </FullPage>
     </div>
   );

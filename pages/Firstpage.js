@@ -38,8 +38,8 @@ export default function Start() {
         <House />
         <Man />
         <TextBubble />
-        <SmallBackbutton />
-        <SmallNextbutton />
+        <SmallBackbutton path="/" />
+        <SmallNextbutton path="/Secondpage" />
       </FullPage>
     </div>
   );

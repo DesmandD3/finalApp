@@ -32,15 +32,16 @@ const FullPage = styled.div`
 export default function Start() {
   return (
     <div>
+      <Leafs />
       <FullPage>
         <Navbar />
         <Moon />
         <House />
         <Man />
         <Garbage />
-        <Choice1/>
-        <SmallBackbutton />
-        <SmallNextbutton />
+        <Choice1 />
+        <SmallBackbutton path="/Secondpage" />
+        <SmallNextbutton path="/Forthpage" />
       </FullPage>
     </div>
   );

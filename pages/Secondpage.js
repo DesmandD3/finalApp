@@ -9,7 +9,13 @@ import Navbar from "../comps/nav/navbar";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
-  background:linear-gradient(to bottom, #003472 0%, #003472 65%, #758998 65%, #758998 100%) ;
+  background: linear-gradient(
+    to bottom,
+    #003472 0%,
+    #003472 65%,
+    #758998 65%,
+    #758998 100%
+  );
   text-align: center;
   font-family: "Fira Sans", sans-serif;
   display: flex;
@@ -21,20 +27,17 @@ const FullPage = styled.div`
   overflow: hidden;
 `;
 
-
-
-
 export default function Start() {
   return (
     <div>
       <Leafs />
       <FullPage>
-      <Navbar />
+        <Navbar />
         <Moon />
-        <House/>
-        <Man/>
-        <SmallBackbutton />
-        <SmallNextbutton /> 
+        <House />
+        <Man />
+        <SmallBackbutton path="/Firstpage" />
+        <SmallNextbutton path="/Thirdpage" />
       </FullPage>
     </div>
   );
