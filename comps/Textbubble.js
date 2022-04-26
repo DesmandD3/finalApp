@@ -10,12 +10,15 @@ const Textbub = styled.div`
   padding: 10px;
   border-radius: 10px;
   position: relative;
+  left: 1px;
+  top: 380px;
+
 `;
 
 export default function TextBubble() {
   return (
     <div>
-      <Textbub>dfbdfzgdxc</Textbub>
+      <Textbub>Hi, My name is Kevin, and This is my Story.</Textbub>
     </div>
   );
 }

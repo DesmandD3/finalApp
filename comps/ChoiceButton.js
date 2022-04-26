@@ -2,21 +2,17 @@ import { useRouter } from "next/router";
 import styled from "styled-components";
 
 const ChoiceButton = styled.button`
-  background-color: #41658a;
-  color: #fefae0;
-  height: 78px;
-  width: 535px;
-  border-radius: 10px;
-  font-size: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 520px;
-  text-align: centered;
-  z-index: 2;
+background-color: #41658a;
+color: #fefae0;
+height: 65px;
+width: 350px;
+border-radius: 10px;
+font-size: 25px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+top: 580px;
 `;
 
 // const CheatGrid = styled.div`

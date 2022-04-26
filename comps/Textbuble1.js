@@ -6,8 +6,11 @@ function Text1() {
     <div>
       <img
         style={{
-          display: "flex",
-          position: "relative",
+          overflow: "hidden",
+          display:"flex",
+          position:"relative",
+          
+
         }}
         src="/asset15.jpg"
       />

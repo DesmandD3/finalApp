@@ -38,7 +38,7 @@ export default function Start() {
         <House />
         <Man />
         <Garbage />
-        <Choice1 />
+        <Choice1/>
         <SmallBackbutton />
         <SmallNextbutton />
       </FullPage>
