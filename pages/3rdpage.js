@@ -3,9 +3,11 @@ import styled from "styled-components";
 import Moon from "../comps/Moon";
 import Man from "../comps/man";
 import House from "../comps/House";
+import Garbage from "../comps/Garbage";
 import SmallNextbutton from "../comps/smNext";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
+import Choice1 from "../comps/Choice1";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
@@ -36,8 +38,10 @@ export default function Start() {
         <Moon />
         <House />
         <Man />
-        <SmallBackbutton path="/Firstpage" />
-        <SmallNextbutton path="/Thirdpage" />
+        <Garbage />
+        <Choice1 />
+        <SmallBackbutton path="/2ndpage" />
+        <SmallNextbutton path="/4thpage" />
       </FullPage>
     </div>
   );

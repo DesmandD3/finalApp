@@ -49,7 +49,7 @@ export default function Start() {
         <Moon />
         <Header>Pathfinders</Header>
         <PageTitle>Imagine the Story</PageTitle>
-        <StartButton />
+        <StartButton path="/1stpage" />
         <AboutButton />
       </FullPage>
     </div>

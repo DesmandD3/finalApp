@@ -38,8 +38,8 @@ export default function Start() {
         <Whatlevel/>
         <Man3 />
         <Choice3 />
-        <SmallBackbutton path="/Forthpage" />
-        <SmallNextbutton path="/results" />
+        <SmallBackbutton path="/4thpage" />
+        <SmallNextbutton path="/" />
       </FullPage>
     </div>
   );
