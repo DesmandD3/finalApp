@@ -7,6 +7,7 @@ import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
 import wayButton from "../comps/wayButton";
 import TextResult from "../comps/textresult1";
+import WButton from "../comps/wayButton";
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
   background: linear-gradient(
@@ -36,7 +37,7 @@ export default function Start() {
         <Moon />
         <Man2 />
         <TextResult/>
-      <wayButton/>
+      <WButton />
       </FullPage>
     </div>
   );
