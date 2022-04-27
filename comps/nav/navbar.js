@@ -1,6 +1,7 @@
 import Next from 'next'
 import React from 'react'
 import styled from 'styled-components'
+import Logo from '../logo'
 import Burger from './burger'
 
 const Nav = styled.nav`
@@ -20,7 +21,8 @@ const Navbar = () => {
     return (
         <Nav>
            <div className="hamLogo">
-                       </div>
+            <Logo />
+            </div>
            <Burger />
            </Nav>
     )
