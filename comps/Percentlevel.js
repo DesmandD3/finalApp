@@ -11,7 +11,7 @@ font-weight: 400;
 font-size: 20px;
 line-height: 19px;
 
-color: #000;
+color: #fff;
 `
 export default function LevelText(){
     return (
