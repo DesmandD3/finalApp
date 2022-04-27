@@ -15,7 +15,7 @@ function TextResult() {
           
 
         }}
-        src="/Bigtrouble.svg"
+        src="/smalltrouble.svg"
       />
     </div>
   );
