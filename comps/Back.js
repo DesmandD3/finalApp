@@ -11,5 +11,5 @@ const Back = styled.button`
 
 export default function BackButton() {
   const r = useRouter();
-  return <Back onClick={() => r.replace({ pathname: "/" })}>Back</Back>;
+  return <Back onClick={() => r.replace({ pathname: "/start" })}>Back</Back>;
 }

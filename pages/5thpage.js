@@ -39,7 +39,7 @@ export default function Start() {
         <Man3 />
         <Choice3 />
         <SmallBackbutton path="/4thpage" />
-        <SmallNextbutton path="/" />
+        <SmallNextbutton path="/results" />
       </FullPage>
     </div>
   );
