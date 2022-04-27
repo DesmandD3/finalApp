@@ -7,6 +7,7 @@ function App() {
         <div className="App">
             <Navbar />
             App Page
+            <wayButton></wayButton>
         </div>
     )
 }

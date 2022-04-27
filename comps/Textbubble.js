@@ -18,7 +18,9 @@ const Textbub = styled.div`
 export default function TextBubble() {
   return (
     <div>
-      <Textbub>Hi, My name is Kevin, and This is my Story.</Textbub>
+      <Textbub>Hello There, My name is Kevin. I would like to share a story with you about my life, 
+        How I got let go by my family, because I turned 18 years old today. 
+</Textbub>
     </div>
   );
 }

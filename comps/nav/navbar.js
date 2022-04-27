@@ -20,8 +20,7 @@ const Navbar = () => {
     return (
         <Nav>
            <div className="hamLogo">
-               Nav Bar
-           </div>
+                       </div>
            <Burger />
            </Nav>
     )

@@ -4,7 +4,7 @@ import Textbub from "../comps/Textbubble";
 import BackButton from "../comps/Back";
 import StartButton from "../comps/start-button";
 import WayButton from "../comps/waysButton";
-import Choice from "../comps/ChoiceButton";
+import Choice from "../comps/choicebuttons/page 3/ChoiceButton";
 import Text1 from "../comps/Textbuble1";
 export default function test() {
   return (
