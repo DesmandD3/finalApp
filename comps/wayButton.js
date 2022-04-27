@@ -10,7 +10,8 @@ const WayButton = styled.button`
   border-color: #71f099;
   margin: 5px;
   border-width: 2px;
-  left: 100px;
+  position: relative;
+  left: 55px;
 `;
 
 export default function WButton() {
