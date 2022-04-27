@@ -15,9 +15,9 @@ const Start = styled.button`
   top: 600px;
 `;
 
-export default function StartButton() {
+export default function StartButton({ path = "" }) {
   const r = useRouter();
   return (
-    <Start onClick={() => r.replace({ pathname: "/Firstpage" })}> Start </Start>
+    <Start onClick={() => r.replace({ pathname: path })}> Start </Start>
   );
 }
