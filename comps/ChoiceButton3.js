@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import styled from "styled-components";
 
-const ChoiceButton = styled.button`
+const Choice3Button = styled.button`
   background-color: #41658a;
   color: #fefae0;
   height: 65px;
@@ -12,16 +12,16 @@ const ChoiceButton = styled.button`
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 500px;
+  top: 655px;
 `;
 
-export default function Choice() {
+export default function Choice3() {
   const r = useRouter();
   return (
     // (<ChoiceButton> Drugs/Narcotics </ChoiceButton>),
     // (<ChoiceButton> Alcohol</ChoiceButton>),
-    <ChoiceButton onClick={() => r.replace({ pathname: "/Fifthpage" })}>
-      Drugs/Narcotics
-    </ChoiceButton>
+    <Choice3Button onClick={() => r.replace({ pathname: "/Fifthpage" })}>
+      Crime
+    </Choice3Button>
   );
 }

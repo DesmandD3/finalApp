@@ -9,10 +9,13 @@ function TextResult() {
           overflow: "hidden",
           display:"flex",
           position:"relative",
+          top: 390,
+          width:450,
+          height: 230
           
 
         }}
-        src="/asset10.png"
+        src="/Bigtrouble.svg"
       />
     </div>
   );

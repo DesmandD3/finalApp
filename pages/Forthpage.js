@@ -7,6 +7,9 @@ import SmallNextbutton from "../comps/smNext";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
 import Choice from "../comps/ChoiceButton";
+import Choice2 from "../comps/ChoiceButton2";
+import Choice3 from "../comps/ChoiceButton3";
+import Man3 from "../comps/man3";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
@@ -28,10 +31,7 @@ const FullPage = styled.div`
   overflow: hidden;
 `;
 
-const questionFormat = styled.div`
-  position: absolute;
-  bottom: 100px;
-`;
+
 
 export default function Start() {
   return (
@@ -40,14 +40,13 @@ export default function Start() {
       <FullPage>
         <Navbar />
         <Moon />
-        <Man />
-        <questionFormat>
+        <Man3 />
           <Choice />
-          <Choice />
-          <Choice />
-        </questionFormat>
+          <Choice2/>
+          <Choice3/>
         <SmallBackbutton path="/Thirdpage" />
         <SmallNextbutton path="/Fifthpage" />
+        
       </FullPage>
     </div>
   );
