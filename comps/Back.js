@@ -12,7 +12,7 @@ const Start = styled.button`
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 600px;
+  top: 700px;
 `;
 
 export default function StartButton({ path = "" }) {

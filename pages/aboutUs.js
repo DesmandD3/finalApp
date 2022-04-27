@@ -58,7 +58,7 @@ export default function About() {
           MDIA - 2106<br></br>
           Set - A
         </Names>
-        <SmallBackbutton path="/start"></SmallBackbutton>
+        <Back path="/start"></Back>
       </FullPage>
     </BackImg>
   );
