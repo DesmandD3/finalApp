@@ -1,7 +1,6 @@
 import Leafs from "../comps/leafs";
 import styled from "styled-components";
 import Moon from "../comps/Moon";
-import Man from "../comps/man";
 import Tent from "../comps/tent";
 import SmallNextbutton from "../comps/smNext";
 import SmallBackbutton from "../comps/smBack";
@@ -10,6 +9,7 @@ import Choice from "../comps/ChoiceButton";
 import Choice2 from "../comps/ChoiceButton2";
 import Choice3 from "../comps/ChoiceButton3";
 import Man3 from "../comps/man3";
+import Whattrouble from "../comps/Whattrouble";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
@@ -40,7 +40,10 @@ export default function Start() {
       <FullPage>
         <Navbar />
         <Moon />
+        <Tent/>
+        <Whattrouble/>
         <Man3 />
+
           <Choice />
           <Choice2/>
           <Choice3/>

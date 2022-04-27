@@ -8,9 +8,8 @@ function Man3() {
         style={{
           display: "flex",
           position: "absolute",
-          top: -10,
+          top: 50,
           right: 10,
-          zIndex: 1,
           objectFit: "contain",
         }}
         src="/Man.svg"
