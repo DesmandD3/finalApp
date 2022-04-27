@@ -50,7 +50,7 @@ export default function Start() {
         <Header>Pathfinders</Header>
         <PageTitle>Imagine the Story</PageTitle>
         <StartButton path="/1stpage" />
-        <AboutButton />
+        <AboutButton path="/aboutus"/>
       </FullPage>
     </div>
   );

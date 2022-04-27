@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Back from "../comps/Back";
 import Leafs from "../comps/leafs";
 import img from "../assets/lampPostShining.png";
+import SmallBackbutton from "../comps/smBack";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
@@ -57,7 +58,7 @@ export default function About() {
           MDIA - 2106<br></br>
           Set - A
         </Names>
-        <Back></Back>
+        <SmallBackbutton path="/start"></SmallBackbutton>
       </FullPage>
     </BackImg>
   );
