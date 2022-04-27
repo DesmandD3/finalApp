@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 const Start = styled.button`
   width: 200px;
   height: 70px;
-  background-color: #71f099;
+  background-color: darkred;
   color: #fefae0;
   font-size: 40px;
   border-radius: 10px;
