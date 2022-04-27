@@ -16,9 +16,9 @@ const SmallBack = styled.button`
   top: 770px;
 `;
 
-export default function SmallBackbutton() {
+export default function SmallBackbutton({ path = "" }) {
   const r = useRouter();
   return (
-    <SmallBack onClick={() => r.replace({ pathname: "/w" })}>Back</SmallBack>
+    <SmallBack onClick={() => r.replace({ pathname: path })}>Back</SmallBack>
   );
 }

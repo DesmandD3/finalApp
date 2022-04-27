@@ -9,15 +9,15 @@ const SmallNext = styled.button`
   font-size: 25px;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   position: absolute;
   left: 260px;
   top: 770px;
 `;
 
-export default function SmallNextbutton() {
+export default function SmallNextbutton({ path = "" }) {
   const r = useRouter();
   return (
-    <SmallNext onClick={() => r.replace({ pathname: "/w" })}>Next</SmallNext>
+    <SmallNext onClick={() => r.replace({ pathname: path })}>Next</SmallNext>
   );
 }

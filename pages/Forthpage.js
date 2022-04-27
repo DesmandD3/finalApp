@@ -28,6 +28,11 @@ const FullPage = styled.div`
   overflow: hidden;
 `;
 
+const questionFormat = styled.div`
+  position: absolute;
+  bottom: 100px;
+`;
+
 export default function Start() {
   return (
     <div>
@@ -36,12 +41,13 @@ export default function Start() {
         <Navbar />
         <Moon />
         <Man />
-        <Tent />
-        <Choice />
-        <Choice />
-        <Choice />
-        <SmallBackbutton />
-        <SmallNextbutton />
+        <questionFormat>
+          <Choice />
+          <Choice />
+          <Choice />
+        </questionFormat>
+        <SmallBackbutton path="/Thirdpage" />
+        <SmallNextbutton path="/Fifthpage" />
       </FullPage>
     </div>
   );
