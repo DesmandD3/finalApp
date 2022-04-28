@@ -31,10 +31,11 @@ const Ul = styled.ul`
 `;
 
 const RightNav = ({ open }) => {
+  const r = useRouter();
   return (
     <Ul open={open}>
-      <li>Home</li>
-      <li>About Us</li>
+      <li onClick={() => r.replace({ pathname: "/start" })}>Home</li>
+      <li onClick={() => r.replace({ pathname: "/start" })}>About Us</li>
     </Ul>
   );
 };
