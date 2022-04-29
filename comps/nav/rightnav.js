@@ -23,7 +23,7 @@ const Ul = styled.ul`
     width: 150px;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
-    z-index:1;
+    z-index:18;
     li {
       color: #ffff;
     }
@@ -35,7 +35,7 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <li onClick={() => r.replace({ pathname: "/start" })}>Home</li>
-      <li onClick={() => r.replace({ pathname: "/start" })}>About Us</li>
+      <li onClick={() => r.replace({ pathname: "/aboutUs" })}>About Us</li>
     </Ul>
   );
 };
