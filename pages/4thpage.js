@@ -15,8 +15,8 @@ const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
   background: linear-gradient(
     to bottom,
-    #7D98A1 0%,
-    #7D98A1 7.5%,
+    #7d98a1 0%,
+    #7d98a1 7.5%,
     #003472 8%,
     #003472 50%,
     #38764b 50%,
@@ -33,8 +33,6 @@ const FullPage = styled.div`
   overflow: hidden;
 `;
 
-
-
 export default function Start() {
   return (
     <div>
@@ -42,16 +40,15 @@ export default function Start() {
       <FullPage>
         <Navbar />
         <Moon />
-        <Tent/>
-        <Whattrouble/>
+        <Tent />
+        <Whattrouble />
         <Man3 />
 
-          <Choice />
-          <Choice2/>
-          <Choice3/>
+        <Choice />
+        <Choice2 />
+        <Choice3 />
         <SmallBackbutton path="/3rdpage" />
         <SmallNextbutton path="/5thpage" />
-        
       </FullPage>
     </div>
   );

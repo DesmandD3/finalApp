@@ -1,24 +1,11 @@
-import SmallBack from "../comps/smBack";
-import SmallNext from "../comps/smNext";
-import Textbub from "../comps/Textbubble";
-import BackButton from "../comps/Back";
-import StartButton from "../comps/start-button";
-import WayButton from "../comps/waysButton";
-import Choice from "../comps/choicebuttons/page 3/ChoiceButton";
-import Text1 from "../comps/Textbuble1";
+import TestButton from "../comps/testButton";
+import { num, changeNum } from "../data/globalData";
+
 export default function test() {
   return (
     <div>
       <h1>Testing stuff</h1>
-
-      <SmallBack />
-      <SmallNext />
-      <Textbub />
-      <WayButton />
-      <BackButton />
-      <StartButton />
-      <Choice />
-      <Text1 />
+      <TestButton />
     </div>
   );
 }
