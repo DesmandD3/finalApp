@@ -12,7 +12,7 @@ const ChoiceButton1 = styled.button`
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 580px;
+  top: 630px;
   
 `;
 
