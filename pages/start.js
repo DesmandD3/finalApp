@@ -1,10 +1,13 @@
 import StartButton from "../comps/start-button";
 import Leafs from "../comps/leafs";
 import styled from "styled-components";
-import Moon from "../comps/Moon";
+import Moon2 from "../comps/Moon2";
 import Lamp from "../comps/Lamp";
 import Navbar from "../comps/nav/navbar";
 import AboutButton from "../comps/aboutButton";
+import Path from "../comps/path";
+
+
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
@@ -33,12 +36,14 @@ const Header = styled.h1`
   margin-top: 180px;
   color: fefae0;
   color: #fefae0;
+  z-index:2;
 `;
 
 const PageTitle = styled.h2`
   font-size: 24px;
   color: #fefae0;
   margin-bottom: 120px;
+  z-index:2;
 `;
 
 export default function Start() {
@@ -47,12 +52,12 @@ export default function Start() {
       <Leafs />
       <FullPage>
         <Navbar />
-        <Lamp />
-        <Moon />
+        <Moon2 />
         <Header>Pathfinders</Header>
         <PageTitle>Imagine the Story</PageTitle>
-        <StartButton path="/1stpage" />
+        <StartButton className = "Startbut" path="/1stpage" />
         <AboutButton path="/aboutus"/>
+        <Path/>
       </FullPage>
     </div>
   );

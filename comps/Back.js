@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { useRouter } from "next/router";
+import { withTheme } from "styled-components";
 
 const Start = styled.button`
   width: 200px;
@@ -13,9 +14,15 @@ const Start = styled.button`
   justify-content: center;
   position: absolute;
   top: 700px;
+  :hover{
+    background-color: lightgreen;
+    opacity: 100%;
+    transition: 0.1s;
+  }
 `;
 
 export default function StartButton({ path = "" }) {
+ 
   const r = useRouter();
   return (
     <Start onClick={() => r.replace({ pathname: path })}> Back </Start>

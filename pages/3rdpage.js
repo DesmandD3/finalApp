@@ -45,7 +45,7 @@ export default function Start() {
         <Garbage />
         <Choice1 />
         <SmallBackbutton path="/2ndpage" />
-        <SmallNextbutton path="/4thpage" />
+        <SmallNextbutton path="/Forthpage" />
       </FullPage>
     </div>
   );

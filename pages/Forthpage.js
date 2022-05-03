@@ -1,26 +1,24 @@
 import Leafs from "../comps/leafs";
 import styled from "styled-components";
 import Moon from "../comps/Moon";
-import Tent from "../comps/tent";
+import Beg1 from "../comps/Beg";
 import SmallNextbutton from "../comps/smNext";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
-import Choice from "../comps/ChoiceButton";
-import Choice2 from "../comps/ChoiceButton2";
-import Choice3 from "../comps/ChoiceButton3";
-import Man3 from "../comps/man3";
-import Whattrouble from "../comps/Whattrouble";
+import Text3bubble from "../comps/Text3bubble";
+import House from "../comps/House";
+import Garbage from "../comps/Garbage";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
   background: linear-gradient(
     to bottom,
-    #7d98a1 0%,
-    #7d98a1 7.5%,
+    #7D98A1 0%,
+    #7D98A1 7.5%,
     #003472 8%,
-    #003472 50%,
-    #38764b 50%,
-    #38764b 100%
+    #003472 65%,
+    #758998 65%,
+    #758998 100%
   );
   text-align: center;
   font-family: "Fira Sans", sans-serif;
@@ -40,15 +38,12 @@ export default function Start() {
       <FullPage>
         <Navbar />
         <Moon />
-        <Tent />
-        <Whattrouble />
-        <Man3 />
-
-        <Choice />
-        <Choice2 />
-        <Choice3 />
-        <SmallBackbutton path="/Forthpage" />
-        <SmallNextbutton path="/5thpage" />
+        <House/>
+        <Beg1 />
+        <Garbage/>
+        <Text3bubble/>
+        <SmallBackbutton path="/3rdpage" />
+        <SmallNextbutton path="/4thpage" />
       </FullPage>
     </div>
   );

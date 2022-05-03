@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { useRouter } from "next/router";
 
+
+
 const Start = styled.button`
   width: 200px;
   height: 70px;
@@ -12,7 +14,12 @@ const Start = styled.button`
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 600px;
+  bottom: 180px;
+  z-index:2;
+  :hover{
+    background-color: red;
+    opacity: 100%;
+  }
 `;
 
 export default function StartButton({ path = "" }) {

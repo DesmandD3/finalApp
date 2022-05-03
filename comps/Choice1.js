@@ -30,7 +30,7 @@ export default function Choice1() {
     // <CheatGrid>
     (<ChoiceButton1> Alcohol</ChoiceButton1>),
     (
-      <ChoiceButton1 onClick={() => r.replace({ pathname: "/4thpage" })}>
+      <ChoiceButton1 onClick={() => r.replace({ pathname: "/Forthpage" })}>
         Financial trouble
       </ChoiceButton1>
     )

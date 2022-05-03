@@ -14,6 +14,11 @@ const About = styled.button`
   justify-content: center;
   position: absolute;
   top 700px;
+  z-index: 2;
+  :hover{
+    background-color: red;
+    opacity: 100%;
+  }
 `;
 
 export default function AboutButton() {
