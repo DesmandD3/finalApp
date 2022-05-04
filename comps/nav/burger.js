@@ -17,7 +17,7 @@ display:none;
 
 @media (max-width:768px) {
     display:flex; 
-    ustify-content:space-around;
+    justify-content:space-around;
     flex-flow:column nowrap;
 }
 div { 

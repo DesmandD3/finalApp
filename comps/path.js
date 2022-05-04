@@ -8,11 +8,11 @@ function Path() {
         style={{
           display: "flex",
           position: "relative",
-          bottom: 270,
-          left: 30,
-          width: 800,
-          height: 600,
+          bottom: 250,
+          width: 700,
+          height: 500,
           zIndex: 1,
+          
         }}
         src="/startPath2.svg"
       />

@@ -40,7 +40,7 @@ const Header = styled.h1`
 const PageTitle = styled.h2`
   font-size: 24px;
   color: #fefae0;
-  margin-bottom: 120px;
+  margin-bottom: 200px;
   z-index: 2;
 `;
 

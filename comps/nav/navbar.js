@@ -24,7 +24,7 @@ const Navbar = () => {
             <Logo />
             </div>
            <Burger />
-           </Nav>
+        </Nav>
     )
 }
 
