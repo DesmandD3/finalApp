@@ -7,14 +7,12 @@ import Navbar from "../comps/nav/navbar";
 import AboutButton from "../comps/aboutButton";
 import Path from "../comps/path";
 
-
-
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
   background: linear-gradient(
     to bottom,
-    #7D98A1 0%,
-    #7D98A1 7.5%,
+    #7d98a1 0%,
+    #7d98a1 7.5%,
     #003472 8%,
     #003472 70%,
     #758998 70%,
@@ -36,14 +34,14 @@ const Header = styled.h1`
   margin-top: 180px;
   color: fefae0;
   color: #fefae0;
-  z-index:2;
+  z-index: 2;
 `;
 
 const PageTitle = styled.h2`
   font-size: 24px;
   color: #fefae0;
   margin-bottom: 120px;
-  z-index:2;
+  z-index: 2;
 `;
 
 export default function Start() {
@@ -55,9 +53,9 @@ export default function Start() {
         <Moon2 />
         <Header>Pathfinders</Header>
         <PageTitle>Imagine the Story</PageTitle>
-        <StartButton className = "Startbut" path="/1stpage" />
-        <AboutButton path="/aboutus"/>
-        <Path/>
+        <StartButton className="Startbut" path="/1stpage" />
+        <AboutButton path="/aboutus" />
+        <Path />
       </FullPage>
     </div>
   );
