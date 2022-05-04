@@ -4,15 +4,16 @@ import styled from "styled-components";
 const ChoiceButton1 = styled.button`
   background-color: #41658a;
   color: #fefae0;
-  height: 65px;
+  height: 165px;
   width: 350px;
   border-radius: 10px;
-  font-size: 25px;
+  font-size: 35px;
+  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 630px;
+  top: 580px;
   
 `;
 

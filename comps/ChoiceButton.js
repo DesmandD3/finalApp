@@ -21,10 +21,9 @@ export default function Choice() {
   return (
     // (<ChoiceButton> Drugs/Narcotics </ChoiceButton>),
     // (<ChoiceButton> Alcohol</ChoiceButton>),
-    <ChoiceButton
-      onClick={(() => r.replace({ pathname: "/5thpage" }), ChangeNum())}
-    >
-      Drugs/Narcotics
-    </ChoiceButton>
-  );
+    <ChoiceButton onClick={() => r.replace({ pathname: "/Drugspage" })}>
+    Drugs/Narcotics
+  </ChoiceButton>
+);
+  
 }
