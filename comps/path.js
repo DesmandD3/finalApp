@@ -12,9 +12,9 @@ function Path() {
           left: 30,
           width: 800,
           height: 600,
-          zIndex:1,
+          zIndex: 1,
         }}
-        src="/startPath.svg"
+        src="/startPath2.svg"
       />
     </div>
   );
