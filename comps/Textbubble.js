@@ -18,8 +18,8 @@ export default function TextBubble() {
   return (
     <div>
       <Textbub>
-        Hi, my name is Kevin. Today is my eighteenth birthday, and my future
-        outlook is uncertain. Let me share my story with you.
+        Hi, my name is Kevin. <br /> Today is my eighteenth birthday, and my
+        future outlook is uncertain. Let me share my story with you.
       </Textbub>
     </div>
   );
