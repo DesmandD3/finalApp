@@ -9,9 +9,9 @@ function How() {
           overflow: "hidden",
           display:"flex",
           position:"absolute",
-          maxWidth:200,
-          height:120,
-          left: 130,
+          maxWidth:300,
+          height:160,
+          left: 80,
           top: 80,
           zIndex:1
         }}

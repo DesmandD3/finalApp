@@ -1,21 +1,21 @@
 import React from "react";
 import styled from "styled-components";
 
-function Drug2() {
+function Alcohol() {
   return (
     <div>
       <img
         style={{
           display: "flex",
           position: "absolute",
-          width: 200,
-          left: -10,
-          top: 50,
+          width: 150,
+          left: -70,
+          top: 10,
           zIndex: 1,
         }}
-        src="/Needle.svg"
+        src="/Alcohol.svg"
       />
     </div>
   );
 }
-export default Drug2;
+export default Alcohol;

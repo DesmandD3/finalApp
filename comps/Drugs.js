@@ -9,8 +9,8 @@ function Drug() {
           display: "flex",
           position: "absolute",
           width: 200,
-          left: 10,
-          top: 250,
+          left: -190,
+          top: 50,
           zIndex: 1,
         }}
         src="/Drug.svg"

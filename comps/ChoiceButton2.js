@@ -20,7 +20,7 @@ export default function Choice2() {
   return (
     // (<ChoiceButton> Drugs/Narcotics </ChoiceButton>),
     // (<ChoiceButton> Alcohol</ChoiceButton>),
-    <Choice2Button onClick={() => r.replace({ pathname: "/5thpage" })}>
+    <Choice2Button onClick={() => r.replace({ pathname: "/Alcohol" })}>
       Alcohol
     </Choice2Button>
   );

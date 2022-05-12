@@ -13,7 +13,7 @@ const Start = styled.button`
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 700px;
+  top: 760px;
   :hover{
     background-color: lightgreen;
     opacity: 100%;

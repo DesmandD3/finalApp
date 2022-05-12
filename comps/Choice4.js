@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import styled from "styled-components";
 
-const ChoiceButton3 = styled.button`
+const ChoiceButton4 = styled.button`
   background-color: #41658a;
   color: #fefae0;
   height: 65px;
@@ -12,7 +12,7 @@ const ChoiceButton3 = styled.button`
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 510px;
+  top: 680px;
   
 `;
 
@@ -24,16 +24,16 @@ const ChoiceButton3 = styled.button`
 //   grid-row-gap: 0px;
 // `;
 
-export default function Choice3() {
+export default function Choice4() {
   const r = useRouter();
   return (
     // <CheatGrid>
-    (<ChoiceButton3> Drugs/Narcotics </ChoiceButton3>),
-    (<ChoiceButton3> Alcohol</ChoiceButton3>),
+    (<ChoiceButton4> Drugs/Narcotics </ChoiceButton4>),
+    (<ChoiceButton4> Alcohol</ChoiceButton4>),
     (
-      <ChoiceButton3 onClick={() => r.replace({ pathname: "/results" })}>
-        Low - Several shelter and aid <br/> (Good State)
-      </ChoiceButton3>
+      <ChoiceButton4 onClick={() => r.replace({ pathname: "/results" })}>
+        High - No shelter or aid <br/> (Bad State)
+      </ChoiceButton4>
     )
     // </CheatGrid>
   );

@@ -3,10 +3,17 @@ import { useRouter } from "next/router";
 
 const InspriationButton = styled.button`
   background-color: #f5fcc9;
-  width: 100px;
+  width: 200px;
   height: 90px;
   font-size: 18px;
   border-radius: 10px;
+  position: relative;
+  top:20px;
+  border-radius: 10px;
+  :hover{
+    background-color:#71f099 ;
+    opacity: 100%;
+  }
 `;
 
 export default function Inspriation() {
@@ -19,7 +26,8 @@ export default function Inspriation() {
         })
       }
     >
-      Our Inspiration
+      <b>Our Inspiration</b><br/>
+      (Click to see Video)
     </InspriationButton>
   );
 }

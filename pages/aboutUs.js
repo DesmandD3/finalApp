@@ -26,7 +26,7 @@ const Header = styled.h1`
 const PageTitle = styled.h2`
   font-size: 24px;
   color: #fefae0;
-  margin-top: 70px;
+  margin-top: 40px;
 `;
 
 const Names = styled.p`

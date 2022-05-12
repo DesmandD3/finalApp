@@ -6,6 +6,8 @@ import SmallNextbutton from "../comps/smNext";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
 import Choice3 from "../comps/Choice3";
+import Choice2 from "../comps/Choice2";
+import Choice4 from "../comps/Choice4";
 import Whatlevel from "../comps/Whatlevel";
 
 const FullPage = styled.div`
@@ -38,8 +40,9 @@ export default function Start() {
         <Whatlevel/>
         <Man3 />
         <Choice3 />
+        <Choice2/>
+        <Choice4/>
         <SmallBackbutton path="/4thpage" />
-        <SmallNextbutton path="/results" />
       </FullPage>
     </div>
   );

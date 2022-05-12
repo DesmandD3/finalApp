@@ -5,7 +5,7 @@ import Man2 from "../comps/man2";
 import SmallNextbutton from "../comps/smNext";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
-import wayButton from "../comps/wayButton";
+import WButton from "../comps/wayButton";
 import TextResult from "../comps/textresult1";
 import PersentageComp from "../comps/Percentage";
 const FullPage = styled.div`
@@ -38,7 +38,7 @@ export default function Start() {
         <Man2 />
         <TextResult/>
         <PersentageComp />
-        <wayButton/>
+        <WButton />
       </FullPage>
     </div>
   );

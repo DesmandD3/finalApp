@@ -2,10 +2,7 @@ import Leafs from "../comps/leafs";
 import styled from "styled-components";
 import Moon from "../comps/Moon";
 import Man2 from "../comps/man2";
-import SmallNextbutton from "../comps/smNext";
-import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
-import wayButton from "../comps/wayButton";
 import TextResult from "../comps/textresult1";
 import WButton from "../comps/wayButton";
 import PersentageComp from "../comps/Percentage";
@@ -39,7 +36,7 @@ export default function Start() {
         <Man2 />
         <TextResult/>
         <PersentageComp />
-      <WButton />
+        <WButton />
       </FullPage>
     </div>
   );
