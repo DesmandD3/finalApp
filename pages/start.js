@@ -6,6 +6,8 @@ import Lamp from "../comps/Lamp";
 import Navbar from "../comps/nav/navbar";
 import AboutButton from "../comps/aboutButton";
 import Path from "../comps/path";
+import React from 'react';
+import {motion} from 'framer-motion';
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
@@ -46,17 +48,25 @@ const PageTitle = styled.h2`
 
 export default function Start() {
   return (
-    <div>
+    <motion.div initial ={{opacity:0}}
+    animate = {{opacity: 1}}
+    transition= {{
+      duration:2
+    }}>
       <Leafs />
       <FullPage>
         <Navbar />
         <Moon2 />
         <Header>Pathfinders</Header>
         <PageTitle>Imagine the Story</PageTitle>
-        <StartButton className="Startbut" path="/1stpage" />
+        <motion.div
+
+        >
+        <StartButton path="/1stpage" />
+        </motion.div>
         <AboutButton path="/aboutus" />
         <Path />
       </FullPage>
-    </div>
+    </motion.div>
   );
 }

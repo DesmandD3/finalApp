@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { useRouter } from "next/router";
 
 
-
 const Start = styled.button`
   width: 200px;
   height: 70px;
@@ -15,6 +14,7 @@ const Start = styled.button`
   justify-content: center;
   position: absolute;
   bottom: 180px;
+  left: 100px;
   z-index:2;
   :hover{
     background-color: red;
