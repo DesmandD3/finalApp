@@ -6,13 +6,12 @@ import WaysTextBubble from "../comps/WaysTextBubble";
 
 export default function Ways() {
   return (
-    // temp div, can be removed
-    <div>
+    <>
       <Navbar />
       <WaysTextBubble />
       <Charity />
       <Charity2 />
       <Charity3 />
-    </div>
+    </>
   );
 }
