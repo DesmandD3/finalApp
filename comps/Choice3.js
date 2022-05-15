@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import styled from "styled-components";
+import { num, ChangeNum } from "../data/globalData";
 
 const ChoiceButton3 = styled.button`
   background-color: #41658a;
@@ -13,28 +14,22 @@ const ChoiceButton3 = styled.button`
   justify-content: center;
   position: absolute;
   top: 510px;
-  
 `;
-
-// const CheatGrid = styled.div`
-//   display: grid;
-//   grid-template-columns: 1fr;
-//   grid-template-rows: repeat(3, 1fr);
-//   grid-column-gap: 0px;
-//   grid-row-gap: 0px;
-// `;
 
 export default function Choice3() {
   const r = useRouter();
   return (
-    // <CheatGrid>
     (<ChoiceButton3> Drugs/Narcotics </ChoiceButton3>),
     (<ChoiceButton3> Alcohol</ChoiceButton3>),
     (
-      <ChoiceButton3 onClick={() => r.replace({ pathname: "/results" })}>
-        Low - Several shelter and aid <br/> (Good State)
+      <ChoiceButton3
+        onClick={() => {
+          ChangeNum({ num });
+          r.replace({ pathname: "/results" });
+        }}
+      >
+        Low - Several shelter and aid <br /> (Good State)
       </ChoiceButton3>
     )
-    // </CheatGrid>
   );
 }
