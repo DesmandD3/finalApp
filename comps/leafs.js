@@ -15,6 +15,7 @@ const Leaf = styled.div`
     animation: leaf 5s ease-in-out -2s 2;
     transform-origin: center;
     border-radius: 100% 0;
+    z-index: 2;
   }
   .leaf:nth-child(1) {
     background-color: orange;

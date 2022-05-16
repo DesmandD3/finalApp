@@ -14,7 +14,7 @@ const About = styled.button`
   justify-content: center;
   position: absolute;
   top 700px;
-  z-index: 2;
+  z-index: 3;
   :hover{
     background-color: red;
     opacity: 100%;

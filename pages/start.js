@@ -35,14 +35,14 @@ const Header = styled.h1`
   margin-top: 180px;
   color: fefae0;
   color: #fefae0;
-  z-index: 2;
+  z-index: 3;
 `;
 
 const PageTitle = styled.h2`
   font-size: 24px;
   color: #fefae0;
   margin-bottom: 200px;
-  z-index: 2;
+  z-index: 3;
 `;
 
 export default function Start() {

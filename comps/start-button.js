@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { useRouter } from "next/router";
 
-
 const Start = styled.button`
   width: 200px;
   height: 70px;
@@ -15,8 +14,8 @@ const Start = styled.button`
   position: absolute;
   bottom: 180px;
   left: 100px;
-  z-index:2;
-  :hover{
+  z-index: 3;
+  :hover {
     background-color: red;
     opacity: 100%;
   }
@@ -24,7 +23,5 @@ const Start = styled.button`
 
 export default function StartButton({ path = "" }) {
   const r = useRouter();
-  return (
-    <Start onClick={() => r.replace({ pathname: path })}> Start </Start>
-  );
+  return <Start onClick={() => r.replace({ pathname: path })}> Start </Start>;
 }
