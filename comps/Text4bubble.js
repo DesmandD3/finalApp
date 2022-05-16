@@ -12,18 +12,21 @@ const Textbub4 = styled.div`
   position: relative;
   left: 1px;
   top: 345px;
-  z-index:2;
-
+  z-index: 2;
 `;
 
 export default function Text4bubble() {
   return (
     <div>
-      <Textbub4>I got kicked out of the house when I was 18,
-        <br/> Now I am just on the streets,
-       <br/> begging for some money, to survive. 
+      <Textbub4>
+        Drugs are abundant on the streets and readily available—an easy escape
+        for someone like me.
+        <br />
+        But narcotics laced with fentanyl make it a deadly gamble and easy to
+        die from an overdose.
       </Textbub4>
-      <Textbub4>Let's see what is the <b>Level</b> of stress.
+      <Textbub4>
+        Let's see what is the <b>Level</b> of stress.
       </Textbub4>
     </div>
   );

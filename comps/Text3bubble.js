@@ -12,18 +12,19 @@ const Textbub3 = styled.div`
   position: relative;
   left: 1px;
   top: 330px;
-  z-index:2;
-
+  z-index: 2;
 `;
 
 export default function Text3bubble() {
   return (
     <div>
-      <Textbub3>I got kicked out of the house when I was 18,
-        <br/> Now I am just on the streets,
-       <br/> begging for some money, to survive. 
+      <Textbub3>
+        I just turned 18 and now I'm just on the streets.
+        <br /> Alone and begging for money.
+        <br /> Just trying to live, trying to survive.
       </Textbub3>
-      <Textbub3>Let's see what <b>troubles</b> I fall into.
+      <Textbub3>
+        Find out what <b>troubles</b> I could fall into.
       </Textbub3>
     </div>
   );
