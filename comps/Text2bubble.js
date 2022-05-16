@@ -21,8 +21,7 @@ export default function Text2Bubble() {
       <Textbub2>
         This story is not a happy one. <br />I was kicked out of my house today.
         You may not know it but a lot of 18 years olds like me end up on the
-        street, without food, shelter or options and I don't know where I'll end
-        up. Join me on my path, and let's focus on the story.
+        street, without food, shelter or options.
       </Textbub2>
     </div>
   );
