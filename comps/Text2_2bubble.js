@@ -22,6 +22,7 @@ export default function Text2Bubble2() {
         Living on the streets is scary, and I really don't know where I'll end
         up.
         <br />
+        <br />
         Join me on my path, and let's focus on the story.
       </Textbub2_2>
     </div>
