@@ -21,17 +21,20 @@ const Header = styled.h1`
   color: fefae0;
   margin-top: 50px;
   color: #fefae0;
+  z-index: 3;
 `;
 
 const PageTitle = styled.h2`
   font-size: 24px;
   color: #fefae0;
   margin-top: 40px;
+  z-index: 3;
 `;
 
 const Names = styled.p`
   font-size: 25px;
   color: #fefae0;
+  z-index: 3;
 `;
 
 const BackImg = styled.div``;

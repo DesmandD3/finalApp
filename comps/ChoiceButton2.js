@@ -13,13 +13,12 @@ const Choice2Button = styled.button`
   justify-content: center;
   position: absolute;
   top: 575px;
+  z-index: 3;
 `;
 
 export default function Choice2() {
   const r = useRouter();
   return (
-    // (<ChoiceButton> Drugs/Narcotics </ChoiceButton>),
-    // (<ChoiceButton> Alcohol</ChoiceButton>),
     <Choice2Button onClick={() => r.replace({ pathname: "/Alcohol" })}>
       Alcohol
     </Choice2Button>

@@ -12,6 +12,7 @@ const Textbub = styled.div`
   position: relative;
   left: 1px;
   top: 380px;
+  z-index: 3;
 `;
 
 export default function TextBubble() {

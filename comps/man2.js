@@ -11,7 +11,7 @@ function Man2() {
           top: 175,
           right: 180,
           width: 300,
-          zIndex: 1,
+          zIndex: 3,
           objectFit: "contain",
         }}
         src="/Man.svg"

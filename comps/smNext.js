@@ -13,6 +13,7 @@ const SmallNext = styled.button`
   position: absolute;
   left: 260px;
   top: 770px;
+  z-index: 3;
 `;
 
 export default function SmallNextbutton({ path = "" }) {

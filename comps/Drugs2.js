@@ -11,7 +11,7 @@ function Drug2() {
           width: 200,
           left: -10,
           top: 50,
-          zIndex: 1,
+          zIndex: 3,
         }}
         src="/Needle.svg"
       />

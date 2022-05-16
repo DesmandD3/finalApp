@@ -8,10 +8,11 @@ const InspriationButton = styled.button`
   font-size: 18px;
   border-radius: 10px;
   position: relative;
-  top:20px;
+  top: 20px;
   border-radius: 10px;
-  :hover{
-    background-color:#71f099 ;
+  z-index: 3;
+  :hover {
+    background-color: #71f099;
     opacity: 100%;
   }
 `;
@@ -26,7 +27,8 @@ export default function Inspriation() {
         })
       }
     >
-      <b>Our Inspiration</b><br/>
+      <b>Our Inspiration</b>
+      <br />
       (Click to see Video)
     </InspriationButton>
   );

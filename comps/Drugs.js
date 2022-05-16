@@ -11,7 +11,7 @@ function Drug() {
           width: 200,
           left: -190,
           top: 50,
-          zIndex: 1,
+          zIndex: 3,
         }}
         src="/Drug.svg"
       />

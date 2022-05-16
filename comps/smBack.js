@@ -14,6 +14,7 @@ const SmallBack = styled.button`
   position: absolute;
   right: 260px;
   top: 770px;
+  z-index: 3;
 `;
 
 export default function SmallBackbutton({ path = "" }) {

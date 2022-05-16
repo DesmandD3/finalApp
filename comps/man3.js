@@ -10,6 +10,7 @@ function Man3() {
           position: "absolute",
           top: 50,
           right: 10,
+          zIndex: 3,
           objectFit: "contain",
         }}
         src="/Man.svg"

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { useRouter } from "next/router";
+
 const WayButton = styled.button`
   background-color: #41658a;
   color: #fefae0;
@@ -13,15 +14,14 @@ const WayButton = styled.button`
   position: relative;
   left: 36px;
   top: 70px;
+  z-index: 3;
 `;
 
 export default function WButton() {
   const r = useRouter();
-  return( 
-  
-  <WayButton onClick={() => r.replace({ pathname: "/waystohelp" })}>Ways To Help</WayButton>
-
-
+  return (
+    <WayButton onClick={() => r.replace({ pathname: "/waystohelp" })}>
+      Ways To Help
+    </WayButton>
   );
-
 }

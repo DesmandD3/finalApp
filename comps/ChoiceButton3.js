@@ -13,13 +13,12 @@ const Choice3Button = styled.button`
   justify-content: center;
   position: absolute;
   top: 655px;
+  z-index: 3;
 `;
 
 export default function Choice3() {
   const r = useRouter();
   return (
-    // (<ChoiceButton> Drugs/Narcotics </ChoiceButton>),
-    // (<ChoiceButton> Alcohol</ChoiceButton>),
     <Choice3Button onClick={() => r.replace({ pathname: "/5thpage" })}>
       Crime
     </Choice3Button>

@@ -13,7 +13,7 @@ const ChoiceButton4 = styled.button`
   justify-content: center;
   position: absolute;
   top: 680px;
-  
+  z-index: 3;
 `;
 
 // const CheatGrid = styled.div`
@@ -32,7 +32,7 @@ export default function Choice4() {
     (<ChoiceButton4> Alcohol</ChoiceButton4>),
     (
       <ChoiceButton4 onClick={() => r.replace({ pathname: "/results" })}>
-        High - No shelter or aid <br/> (Bad State)
+        High - No shelter or aid <br /> (Bad State)
       </ChoiceButton4>
     )
     // </CheatGrid>

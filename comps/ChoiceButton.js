@@ -14,6 +14,7 @@ const ChoiceButton = styled.button`
   justify-content: center;
   position: absolute;
   top: 500px;
+  z-index: 3;
 `;
 
 export default function Choice() {

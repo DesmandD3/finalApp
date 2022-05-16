@@ -7,13 +7,12 @@ function TextResult() {
       <img
         style={{
           overflow: "hidden",
-          display:"flex",
-          position:"relative",
+          display: "flex",
+          position: "relative",
           top: 390,
-          width:450,
-          height: 230
-          
-
+          zIndex: 3,
+          width: 450,
+          height: 230,
         }}
         src="/smalltrouble.svg"
       />

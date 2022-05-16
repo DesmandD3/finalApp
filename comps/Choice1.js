@@ -14,27 +14,17 @@ const ChoiceButton1 = styled.button`
   justify-content: center;
   position: absolute;
   top: 580px;
-  
+  z-index: 3;
 `;
-
-// const CheatGrid = styled.div`
-//   display: grid;
-//   grid-template-columns: 1fr;
-//   grid-template-rows: repeat(3, 1fr);
-//   grid-column-gap: 0px;
-//   grid-row-gap: 0px;
-// `;
 
 export default function Choice1() {
   const r = useRouter();
   return (
-    // <CheatGrid>
     (<ChoiceButton1> Alcohol</ChoiceButton1>),
     (
       <ChoiceButton1 onClick={() => r.replace({ pathname: "/Forthpage" })}>
         Financial trouble
       </ChoiceButton1>
     )
-    // </CheatGrid>
   );
 }

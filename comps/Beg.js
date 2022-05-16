@@ -11,7 +11,7 @@ function Beg1() {
           top: 350,
           right: 200,
           width: 200,
-          zIndex: 1,
+          zIndex: 2,
           objectFit: "contain",
         }}
         src="/Begging.svg"

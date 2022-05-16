@@ -14,7 +14,8 @@ const Start = styled.button`
   justify-content: center;
   position: absolute;
   top: 760px;
-  :hover{
+  z-index: 3;
+  :hover {
     background-color: lightgreen;
     opacity: 100%;
     transition: 0.1s;
@@ -22,10 +23,6 @@ const Start = styled.button`
 `;
 
 export default function StartButton({ path = "" }) {
- 
   const r = useRouter();
-  return (
-    <Start onClick={() => r.replace({ pathname: path })}> Back </Start>
-  );
+  return <Start onClick={() => r.replace({ pathname: path })}> Back </Start>;
 }
-

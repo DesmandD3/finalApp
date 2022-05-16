@@ -43,7 +43,6 @@ export default function Start() {
         <Tent />
         <Whattrouble />
         <Man3 />
-
         <Choice />
         <Choice2 />
         <Choice3 />

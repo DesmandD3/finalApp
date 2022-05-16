@@ -13,7 +13,7 @@ const ChoiceButton2 = styled.button`
   justify-content: center;
   position: absolute;
   top: 595px;
-  
+  z-index: 3;
 `;
 
 // const CheatGrid = styled.div`
