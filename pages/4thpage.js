@@ -9,7 +9,6 @@ import Choice3 from "../comps/ChoiceButton3";
 import Man3 from "../comps/man3";
 import Whattrouble from "../comps/Whattrouble";
 import Moon2 from "../comps/Moon2";
-import { num } from "../data/globalData";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
