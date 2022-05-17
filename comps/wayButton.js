@@ -14,7 +14,7 @@ const WayButton = styled.button`
   position: relative;
   left: 36px;
   top: 70px;
-  z-index: 3;
+  z-index: 2;
 `;
 
 export default function WButton() {

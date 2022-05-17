@@ -4,7 +4,7 @@ position: relative;
 width: 178px;
 height: 154px;
 left: 36%;
-
+z-index:2;
 font-family: 'Fira Sans';
 font-style: normal;
 font-weight: 400;

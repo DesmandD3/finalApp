@@ -6,6 +6,7 @@ height: 0;
 border-left: 20px solid transparent;
 border-right: 20px solid transparent;
 border-top: 20px solid #41658A;
+z-index:2;
 `
 export default function PointerComp(){
     return (

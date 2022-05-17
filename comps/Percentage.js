@@ -7,7 +7,8 @@ const DivCont = styled.div`
   position: absolute;
   top: 19%;
   left: 28%;
-  z-index: 3;
+  z-index: 2;
+
 `;
 
 const Textstress = styled.div`
