@@ -1,13 +1,14 @@
 import Leafs from "../comps/leafs";
 import styled from "styled-components";
-import Moon from "../comps/Moon";
-import Man from "../comps/man";
-import GarbageBin from "../comps/GarbageBin";
-import Garbage from "../comps/Garbage";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
-import Choice1 from "../comps/Choice1";
-import How from "../comps/Howdid";
+import Man4 from "../comps/man4";
+import Text6bubble from "../comps/Text6bubble";
+import Charity from "../comps/Charity";
+import Charity2  from "../comps/Charity2";
+import Charity3 from "../comps/Charity3";
+import { num } from "../data/globalData";
+
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
@@ -15,9 +16,9 @@ const FullPage = styled.div`
     to bottom,
     #7d98a1 0%,
     #7d98a1 7.5%,
-    #003472 8%,
-    #003472 55%,
-    #758998 55%,
+    #00a4e4 8%,
+    #00a4e4 60%,
+    #758998 60%,
     #758998 100%
   );
   text-align: center;
@@ -37,13 +38,12 @@ export default function Start() {
       <Leafs />
       <FullPage>
         <Navbar />
-        <Moon />
-        <GarbageBin />
-        <How />
-        <Man />
-        <Garbage />
-        <Choice1 />
-        <SmallBackbutton path="/2ndpage2" />
+        <Man4/>
+        <Text6bubble/>
+        <Charity/>
+        <Charity2/>
+        <Charity3/>
+        <SmallBackbutton path="/waystohelp" />
       </FullPage>
     </div>
   );

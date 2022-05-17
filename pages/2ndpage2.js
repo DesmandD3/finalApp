@@ -5,6 +5,7 @@ import Man from "../comps/man";
 import SmallNextbutton from "../comps/smNext";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
+import Lamp from "../comps/Lamp";
 import Text2Bubble2 from "../comps/Text2_2bubble";
 
 const FullPage = styled.div`
@@ -37,6 +38,7 @@ export default function Start() {
         <Navbar />
         <Moon />
         <Man />
+        <Lamp/>
         <Text2Bubble2 />
         <SmallBackbutton path="/2ndpage" />
         <SmallNextbutton path="/3rdpage" />

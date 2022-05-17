@@ -11,8 +11,8 @@ const Textbub2_2 = styled.div`
   border-radius: 10px;
   position: relative;
   left: 1px;
-  top: 280px;
-  z-index: 2;
+  top: 350px;
+  z-index: 3;
 `;
 
 export default function Text2Bubble2() {

@@ -1,22 +1,22 @@
 import React from "react";
 import styled from "styled-components";
 
-function GarbageBin() {
+function Man4() {
   return (
     <div>
       <img
         style={{
           display: "flex",
-          position: "relative",
-          top: 60,
-          left: 10,
-          width: 450,
-          height:300,
+          position: "absolute",
+          width:200,
+          top: 200,
+          right: 200,
+          zIndex: 3,
           objectFit: "contain",
         }}
-        src="/GarbageBin.svg"
+        src="/Resu.svg"
       />
     </div>
   );
 }
-export default GarbageBin;
+export default Man4;

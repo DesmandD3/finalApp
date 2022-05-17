@@ -11,7 +11,7 @@ const Textbub4 = styled.div`
   border-radius: 10px;
   position: relative;
   left: 1px;
-  top: 345px;
+  top: 330px;
   z-index: 2;
 `;
 
