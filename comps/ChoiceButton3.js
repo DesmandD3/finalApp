@@ -19,7 +19,7 @@ const Choice3Button = styled.button`
 export default function Choice3() {
   const r = useRouter();
   return (
-    <Choice3Button onClick={() => r.replace({ pathname: "/5thpage" })}>
+    <Choice3Button onClick={() => r.replace({ pathname: "/Crime" })}>
       Crime
     </Choice3Button>
   );

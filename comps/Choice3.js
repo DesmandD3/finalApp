@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import styled from "styled-components";
-import { num, ChangeNum } from "../data/globalData";
+import { GetNum, ChangeNum } from "../data/globalData";
 
 const ChoiceButton3 = styled.button`
   background-color: #41658a;
@@ -19,13 +19,14 @@ const ChoiceButton3 = styled.button`
 
 export default function Choice3() {
   const r = useRouter();
+  var theNum = GetNum();
   return (
     (<ChoiceButton3> Drugs/Narcotics </ChoiceButton3>),
     (<ChoiceButton3> Alcohol</ChoiceButton3>),
     (
       <ChoiceButton3
         onClick={() => {
-          ChangeNum({ num });
+          ChangeNum(theNum);
           r.replace({ pathname: "/results" });
         }}
       >
