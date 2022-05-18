@@ -18,7 +18,7 @@ const Nav = styled.nav`
 const Navbar = () => {
   return (
     <Nav>
-      <Logo />
+      <Logo path="/start"/>
       <Burger />
     </Nav>
   );

@@ -11,7 +11,9 @@ const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
   background: linear-gradient(
     to bottom,
-    #003472 0%,
+    #7d98a1 0%,
+    #7d98a1 7.5%,
+    #003472 8%,
     #003472 50%,
     #38764b 50%,
     #38764b 100%
