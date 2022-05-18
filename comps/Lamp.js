@@ -13,6 +13,7 @@ function Lamp() {
           right: 60,
           width: 600,
           height: 750,
+          zIndex:3,
           objectFit: "contain",
         }}
         src="/light1.svg"
