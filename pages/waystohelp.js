@@ -4,6 +4,7 @@ import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
 import Man4 from "../comps/man4";
 import Text6bubble from "../comps/Text6bubble";
+import Suit from "../comps/Suit";
 import { num } from "../data/globalData";
 import SmallNextbutton from "../comps/smNext";
 
@@ -36,6 +37,7 @@ export default function Start() {
       <FullPage>
         <Navbar />
         <Man4/>
+        <Suit/>
         <Text6bubble/>
         <SmallNextbutton path="/waystohelp2"/>
         <SmallBackbutton path="/results" />

@@ -7,7 +7,7 @@ const CharityButton = styled.button`
   height: 90px;
   font-size: 18px;
   border-radius: 10px;
-  margin-top: 500px;
+  margin-top: 600px;
   margin-right: 240px;
 `;
 

@@ -5,6 +5,8 @@ import SmallNextbutton from "../comps/smNext";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
 import Text5bubble from "../comps/Text5bubble";
+import Kuck from "../comps/Kuck";
+import Fist from "../comps/fist";
 import { motion } from "framer-motion";
 
 const FullPage = styled.div`
@@ -30,15 +32,17 @@ const FullPage = styled.div`
 `;
 
 export default function Start() {
-  const alcoholVar = {
-    hidden: { scale: 0, opacity: 0, rotate: 0 },
+  const fistlVar= {
+    hidden:{scale:0,opacity:0,rotate:0},
     visible: {
-      rotate: -360,
-      opacity: 1,
-      scale: 1,
-      transition: { duration: 1, ease: "easeInOut" },
-    },
-  };
+        rotate:-360,
+        opacity:1,
+        scale:1,
+        transition: {duration:1,
+        ease:"easeInOut"}
+
+    }
+}
   return (
     <div>
       <Leafs />
@@ -46,10 +50,14 @@ export default function Start() {
         <Navbar />
         <Moon />
         <motion.div
-          variants={alcoholVar}
-          initial="hidden"
-          animate="visible"
-        ></motion.div>
+            variants={fistlVar}
+            initial="hidden"
+            animate="visible"
+        >
+       <Kuck/>
+        
+        </motion.div>
+        <Fist/>
         <Text5bubble />
         <SmallBackbutton path="/4thpage" />
         <SmallNextbutton path="/5thpage" />

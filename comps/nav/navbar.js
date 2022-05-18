@@ -13,17 +13,12 @@ const Nav = styled.nav`
   justify-content: space-between;
   z-index: 3;
 
-  .hamLogo {
-    padding: 15px 0;
-  }
 `;
 
 const Navbar = () => {
   return (
     <Nav>
-      <div className="hamLogo">
-        <Logo />
-      </div>
+      <Logo />
       <Burger />
     </Nav>
   );

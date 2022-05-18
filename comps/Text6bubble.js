@@ -9,9 +9,9 @@ const Textbub6 = styled.div`
   margin: 8px;
   padding: 8px;
   border-radius: 10px;
-  position: relative;
+  position: absolute;
   left: 1px;
-  top: 500px;
+  top: 550px;
   z-index: 2;
 `;
 
