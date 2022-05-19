@@ -8,7 +8,7 @@ const ChoiceButton2 = styled.button`
   height: 65px;
   width: 350px;
   border-radius: 10px;
-  font-size: 25px;
+  font-size: 22px;
   display: flex;
   align-items: center;
   justify-content: center;

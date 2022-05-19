@@ -8,7 +8,7 @@ const ChoiceButton3 = styled.button`
   height: 65px;
   width: 350px;
   border-radius: 10px;
-  font-size: 25px;
+  font-size: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,7 +30,7 @@ export default function Choice3() {
           r.replace({ pathname: "/results_a_low" });
         }}
       >
-        Danger: Relatively Low - Out of crimes, accessing supports.
+        Danger: Relatively Low, avoiding crime, and accessing support.
       </ChoiceButton3>
     )
   );
