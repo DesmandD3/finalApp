@@ -13,7 +13,7 @@ position: relative;
 width: auto;
 height: 34px;
 left: 40%;
-top: 20px;
+top: 40px;
 
 font-family: 'Fira Sans';
 font-style: normal;
@@ -29,7 +29,7 @@ const Textstress = styled.div`
   width: auto;
   height: 34px;
   left: 37%;
-
+  top:30px;
   font-family: "Fira Sans";
   font-style: normal;
   font-weight: 400;
@@ -43,6 +43,7 @@ const Pointer1 = styled.div`
   width: 0;
   height: 0;
   left: 75%;
+  top:30px;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-top: 20px solid #41658a;
@@ -52,6 +53,8 @@ const PercentBar = styled.div`
   position: relative;
   width: 140%;
   height: 60px;
+  left:20px;
+  border-radius:15px;
   background: linear-gradient(
     269.85deg,
     #f41212 1.84%,
@@ -69,8 +72,10 @@ border-right: 20px solid transparent;
 border-top: 20px solid #41658A;
 z-index:2;
 left: 0%;
+left: 5%;
 transform: translate(100px);
 transition: 2s;
+transition-delay:0.2s;
 `;
 
 const PercentageNumber = styled.div`
@@ -78,6 +83,7 @@ position: relative;
 width: 178px;
 height: 154px;
 left: 36%;
+top:20px;
 z-index:2;
 font-family: 'Fira Sans';
 font-style: normal;
