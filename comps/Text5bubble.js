@@ -24,9 +24,7 @@ export default function Text5bubble() {
         remain homeless for more extended amounts of time than sober homeless
         people.
       </Textbub5>
-      <Textbub5>
-        Let's see what is the <b>Level</b> of stress.
-      </Textbub5>
+      <Textbub5>Let's see what I do to get by.</Textbub5>
     </div>
   );
 }

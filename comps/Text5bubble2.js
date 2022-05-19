@@ -23,9 +23,7 @@ export default function Text5bubble2() {
         in crime can lead to violence or arrest, further perpetuating my
         downward spiral.
       </Textbub5_2>
-      <Textbub5_2>
-        Let's see what is the <b>Level</b> of stress.
-      </Textbub5_2>
+      <Textbub5_2>Let's see what I do to get by.</Textbub5_2>
     </div>
   );
 }
