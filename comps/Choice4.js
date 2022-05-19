@@ -32,8 +32,7 @@ export default function Choice4() {
     (<ChoiceButton4> Alcohol</ChoiceButton4>),
     (
       <ChoiceButton4 onClick={() => r.replace({ pathname: "/results_a_high" })}>
-        Danger: High - Using drugs as an escape daily, not accessing programs
-        that can help, and committing crime frequently.
+        Danger: High - Using any means necessary to survive.
       </ChoiceButton4>
     )
     // </CheatGrid>

@@ -30,8 +30,7 @@ export default function Choice2() {
           r.replace({ pathname: "/results_a_mid" });
         }}
       >
-        Danger: Medium - Engaging in petty crime sporadically and alcohol
-        substance abuse.
+        Danger: Medium - Involved in petty crime/stealing
       </ChoiceButton2>
     )
   );
