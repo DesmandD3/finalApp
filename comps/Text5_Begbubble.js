@@ -11,8 +11,8 @@ const TextBeg = styled.div`
   border-radius: 10px;
   position: relative;
   left: 1px;
-  top: 350px;
-  z-index: 2;
+  top: 310px;
+  z-index: 3;
 `;
 
 export default function TextBegging() {

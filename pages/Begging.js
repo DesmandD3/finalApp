@@ -5,7 +5,7 @@ import SmallNextbutton from "../comps/smNext";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
 import TextBegging from "../comps/Text5_Begbubble";
-import Beg1 from "../comps/Beg";
+import Beg2 from "../comps/Beg2";
 import Lamp from "../comps/Lamp";
 
 const FullPage = styled.div`
@@ -15,8 +15,8 @@ const FullPage = styled.div`
     #7d98a1 0%,
     #7d98a1 7.5%,
     #003472 8%,
-    #003472 65%,
-    #758998 65%,
+    #003472 60%,
+    #758998 60%,
     #758998 100%
   );
   text-align: center;
@@ -38,7 +38,7 @@ export default function Start() {
         <Navbar />
         <Moon />
         <Lamp />
-        <Beg1 />
+        <Beg2 />
         <TextBegging />
         <SmallBackbutton path="/GetBy" />
         <SmallNextbutton path="/5thpage" />

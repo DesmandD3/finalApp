@@ -1,24 +1,22 @@
 import React from "react";
 import styled from "styled-components";
-import lamp from "../public/light1.svg";
 
-function Lamp() {
+function Beg2() {
   return (
     <div>
       <img
         style={{
           display: "flex",
           position: "absolute",
-          top: 20,
-          right: 60,
-          width: 600,
-          height: 750,
-          zIndex:3,
+          top: 310,
+          right: 80,
+          width: 200,
+          zIndex: 2,
           objectFit: "contain",
         }}
-        src="/light1.svg"
+        src="/Begging.svg"
       />
     </div>
   );
 }
-export default Lamp;
+export default Beg2;
