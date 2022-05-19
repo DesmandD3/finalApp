@@ -2,7 +2,6 @@ import Leafs from "../comps/leafs";
 import styled from "styled-components";
 import Moon from "../comps/Moon";
 import Man3 from "../comps/man3";
-import SmallNextbutton from "../comps/smNext";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
 import Choice3 from "../comps/Choice3";
@@ -37,13 +36,13 @@ export default function Start() {
     <div>
       <Leafs />
       <FullPage>
-        <Navbar/>
+        <Navbar />
         <Moon />
-        <Whatlevel/>
+        <Whatlevel />
         <Man3 />
         <Choice3 />
-        <Choice2/>
-        <Choice4/>
+        <Choice2 />
+        <Choice4 />
         <SmallBackbutton path="/4thpage" />
       </FullPage>
     </div>
