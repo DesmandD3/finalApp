@@ -12,18 +12,20 @@ const Textbub5 = styled.div`
   position: relative;
   left: 1px;
   top: 345px;
-  z-index:2;
-
+  z-index: 2;
 `;
 
 export default function Text5bubble() {
   return (
     <div>
-      <Textbub5>I got kicked out of the house when I was 18,
-        <br/> Now I am just on the streets drinking alcohol,
-       <br/> begging for some money, to survive. 
+      <Textbub5>
+        Substance abuse is high among the young homeless. Alcohol is often used
+        as a coping mechanism. Homeless youth who abuse alcohol are reported to
+        remain homeless for more extended amounts of time than sober homeless
+        people.
       </Textbub5>
-      <Textbub5>Let's see what is the <b>Level</b> of stress.
+      <Textbub5>
+        Let's see what is the <b>Level</b> of stress.
       </Textbub5>
     </div>
   );
