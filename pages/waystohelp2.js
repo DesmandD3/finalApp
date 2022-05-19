@@ -3,12 +3,10 @@ import styled from "styled-components";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
 import Man4 from "../comps/man4";
-import Text6bubble from "../comps/Text6bubble";
 import Charity from "../comps/Charity";
-import Charity2  from "../comps/Charity2";
+import Charity2 from "../comps/Charity2";
 import Charity3 from "../comps/Charity3";
-import { num } from "../data/globalData";
-
+import Text7bubble from "../comps/Text7bubble";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
@@ -38,11 +36,11 @@ export default function Start() {
       <Leafs />
       <FullPage>
         <Navbar />
-        <Man4/>
-        <Text6bubble/>
-        <Charity/>
-        <Charity2/>
-        <Charity3/>
+        <Man4 />
+        <Text7bubble />
+        <Charity />
+        <Charity2 />
+        <Charity3 />
         <SmallBackbutton path="/waystohelp" />
       </FullPage>
     </div>
