@@ -9,7 +9,7 @@ function Man4() {
           display: "flex",
           position: "absolute",
           width:200,
-          top: 200,
+          top: 210,
           right: 200,
           zIndex: 3,
           objectFit: "contain",

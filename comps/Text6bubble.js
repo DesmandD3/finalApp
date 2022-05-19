@@ -11,8 +11,8 @@ const Textbub6 = styled.div`
   border-radius: 10px;
   position: absolute;
   left: 1px;
-  top: 550px;
-  z-index: 2;
+  top: 520px;
+  z-index: 3;
 `;
 
 export default function Text6bubble() {

@@ -13,7 +13,7 @@ const ChoiceSteal = styled.button`
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 500px;
+  top: 690px;
   z-index: 3;
 `;
 

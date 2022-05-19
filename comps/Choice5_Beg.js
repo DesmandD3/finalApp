@@ -13,7 +13,7 @@ const ChoiceBeg = styled.button`
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 500px;
+  top: 530px;
   z-index: 3;
 `;
 
