@@ -18,7 +18,12 @@ const TextSteal = styled.div`
 export default function TextStealing() {
   return (
     <div>
-      <TextSteal>Resort to stealing....</TextSteal>
+      <TextSteal>
+        I could resort to stealing to get by, but that quickly leads down the
+        crime path. Street youth face terrible challenges and are more likely to
+        engage in crime. Often they are victims of crime. Criminal activity is
+        not an option for anyone.
+      </TextSteal>
       <TextSteal>Let's see what my level of danger is.</TextSteal>
     </div>
   );
