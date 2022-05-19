@@ -26,7 +26,7 @@ export default function ChoiceSoupKitchen() {
     <ChoiceSoup
       onClick={() => {
         ChangeNum(num);
-        r.replace({ pathname: "/" });
+        r.replace({ pathname: "/Soup" });
       }}
     >
       Soup Kitchens

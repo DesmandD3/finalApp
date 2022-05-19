@@ -26,7 +26,7 @@ export default function ChoiceBegging() {
     <ChoiceBeg
       onClick={() => {
         ChangeNum(num);
-        r.replace({ pathname: "/" });
+        r.replace({ pathname: "/Begging" });
       }}
     >
       Begging

@@ -24,7 +24,7 @@ export default function ChoiceStealing() {
     <ChoiceSteal
       onClick={() => {
         ChangeNum(num);
-        r.replace({ pathname: "/" });
+        r.replace({ pathname: "/Steal" });
       }}
     >
       Stealing
