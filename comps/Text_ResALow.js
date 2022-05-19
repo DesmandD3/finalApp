@@ -19,8 +19,11 @@ export default function TextResLow() {
   return (
     <div>
       <TextbubResLow>
-        Hi, my name is Kevin. <br /> Today is my eighteenth birthday, and my
-        future outlook is uncertain. Let me share my story with you.
+        This level shows that Kevin is in relatively low danger despite the
+        conditions. He is doing his best to try and survive but just barely.
+        Begging for money and visiting soup kitchens is getting him by, but this
+        is not a long-term solution. Kevin could easily slip into a spiral if he
+        starts committing crimes or abusing substances.
       </TextbubResLow>
     </div>
   );

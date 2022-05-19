@@ -30,7 +30,7 @@ export default function Choice3() {
           r.replace({ pathname: "/results_a_low" });
         }}
       >
-        Danger: Relatively Low - Out of crimes, Getting on track
+        Danger: Relatively Low - Out of crimes, accessing supports.
       </ChoiceButton3>
     )
   );
