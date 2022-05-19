@@ -19,7 +19,10 @@ export default function Text6bubble() {
   return (
     <div>
       <Textbub6>
-       Hello My Name is Steven, I am here to help you with getting your life back together. 
+        But, there is hope. There are considerate organizations that will help
+        me get my life back together. In my situation, just a little bit of
+        assistance can go miles to help get me off of the streets. There is a
+        chance that I can live a safe, healthy and everyday life one day.
       </Textbub6>
     </div>
   );
