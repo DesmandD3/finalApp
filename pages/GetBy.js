@@ -1,12 +1,15 @@
 import Leafs from "../comps/leafs";
 import styled from "styled-components";
 import Moon from "../comps/Moon";
-import SmallNextbutton from "../comps/smNext";
+import Man from "../comps/man";
+import GarbageBin from "../comps/GarbageBin";
+import Garbage from "../comps/Garbage";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
-import Text5bubble from "../comps/Text5bubble";
-import Alcohol from "../comps/Alcohol";
-import { motion } from "framer-motion";
+import ChoiceBegging from "../comps/Choice5_Beg";
+import ChoiceSoupKitchen from "../comps/Choice5_Soup";
+import ChoiceStealing from "../comps/Choice5_Steal";
+
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
   background: linear-gradient(
@@ -14,8 +17,8 @@ const FullPage = styled.div`
     #7d98a1 0%,
     #7d98a1 7.5%,
     #003472 8%,
-    #003472 65%,
-    #758998 65%,
+    #003472 55%,
+    #758998 55%,
     #758998 100%
   );
   text-align: center;
@@ -30,27 +33,19 @@ const FullPage = styled.div`
 `;
 
 export default function Start() {
-  const alcoholVar = {
-    hidden: { scale: 0, opacity: 0, rotate: 0 },
-    visible: {
-      rotate: -360,
-      opacity: 1,
-      scale: 1,
-      transition: { duration: 1, ease: "easeInOut" },
-    },
-  };
   return (
     <div>
       <Leafs />
       <FullPage>
         <Navbar />
         <Moon />
-        <motion.div variants={alcoholVar} initial="hidden" animate="visible">
-          <Alcohol />
-        </motion.div>
-        <Text5bubble />
+        <GarbageBin />
+        <Man />
+        <Garbage />
+        <ChoiceBegging />
+        <ChoiceSoupKitchen />
+        <ChoiceStealing />
         <SmallBackbutton path="/4thpage" />
-        <SmallNextbutton path="/GetBy" />
       </FullPage>
     </div>
   );

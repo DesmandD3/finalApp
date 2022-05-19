@@ -64,7 +64,7 @@ export default function Start() {
         </motion.div>
         <Text4bubble />
         <SmallBackbutton path="/4thpage" />
-        <SmallNextbutton path="/5thpage" />
+        <SmallNextbutton path="/GetBy" />
       </FullPage>
     </div>
   );

@@ -53,7 +53,7 @@ export default function Start() {
         <Fist />
         <Text5bubble2 />
         <SmallBackbutton path="/4thpage" />
-        <SmallNextbutton path="/5thpage" />
+        <SmallNextbutton path="/GetBy" />
       </FullPage>
     </div>
   );
