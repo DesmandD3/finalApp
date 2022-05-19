@@ -52,7 +52,6 @@ export default function About() {
           Desmand King <br></br>
           Tyler Lee <br></br>
           Justin Ma <br></br>
-          John Sustituido <br></br>
         </Names>
         <Names>
           MDIA - 2106<br></br>
