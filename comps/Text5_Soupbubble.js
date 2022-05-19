@@ -18,7 +18,13 @@ const TextSoup = styled.div`
 export default function TextSoupKitchens() {
   return (
     <div>
-      <TextSoup>Eating a soup kitchens</TextSoup>
+      <TextSoup>
+        Although I would like to choose and buy my own food, sometimes I'll have
+        to resort to eating at soup kitchens. These charities rely on donations,
+        and they are a great resource for someone street youth. Unfortunately,
+        because charities rely on donations, they often can't predict when or
+        how much food they can provide.
+      </TextSoup>
       <TextSoup>Let's see what my level of danger is.</TextSoup>
     </div>
   );
