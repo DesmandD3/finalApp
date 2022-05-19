@@ -27,10 +27,10 @@ export default function Choice3() {
       <ChoiceButton3
         onClick={() => {
           ChangeNum(theNum);
-          r.replace({ pathname: "/results" });
+          r.replace({ pathname: "/results_a_low" });
         }}
       >
-        Low - Several shelter and aid <br /> (Good State)
+        Low - Several shelter or aid <br /> (Good State)
       </ChoiceButton3>
     )
   );

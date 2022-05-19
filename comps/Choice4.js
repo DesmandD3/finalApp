@@ -31,7 +31,7 @@ export default function Choice4() {
     (<ChoiceButton4> Drugs/Narcotics </ChoiceButton4>),
     (<ChoiceButton4> Alcohol</ChoiceButton4>),
     (
-      <ChoiceButton4 onClick={() => r.replace({ pathname: "/results" })}>
+      <ChoiceButton4 onClick={() => r.replace({ pathname: "/results_a_high" })}>
         High - No shelter or aid <br /> (Bad State)
       </ChoiceButton4>
     )
