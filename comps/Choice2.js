@@ -30,7 +30,8 @@ export default function Choice2() {
           r.replace({ pathname: "/results_a_mid" });
         }}
       >
-        Medium - Less shelter or aid <br /> (Normal State)
+        Danger: Medium - Engaging in petty crime sporadically and alcohol
+        substance abuse.
       </ChoiceButton2>
     )
   );

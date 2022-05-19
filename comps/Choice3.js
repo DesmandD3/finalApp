@@ -30,7 +30,8 @@ export default function Choice3() {
           r.replace({ pathname: "/results_a_low" });
         }}
       >
-        Low - Several shelter or aid <br /> (Good State)
+        Danger: Relatively Low - Staying away from crime, begging for money, and
+        accessing charity programs sometimes.
       </ChoiceButton3>
     )
   );
