@@ -19,7 +19,7 @@ export default function TextBegging() {
   return (
     <div>
       <TextBeg>Begging for food and money....</TextBeg>
-      <TextBeg>Let's see what.....</TextBeg>
+      <TextBeg>Let's see what my level of danger is.</TextBeg>
     </div>
   );
 }

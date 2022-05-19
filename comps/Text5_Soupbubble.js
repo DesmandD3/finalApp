@@ -19,7 +19,7 @@ export default function TextSoupKitchens() {
   return (
     <div>
       <TextSoup>Eating a soup kitchens</TextSoup>
-      <TextSoup>Let's see what.....</TextSoup>
+      <TextSoup>Let's see what my level of danger is.</TextSoup>
     </div>
   );
 }

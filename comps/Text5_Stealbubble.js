@@ -19,7 +19,7 @@ export default function TextStealing() {
   return (
     <div>
       <TextSteal>Resort to stealing....</TextSteal>
-      <TextSteal>Let's see what.....</TextSteal>
+      <TextSteal>Let's see what my level of danger is.</TextSteal>
     </div>
   );
 }
