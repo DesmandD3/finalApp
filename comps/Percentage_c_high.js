@@ -5,23 +5,22 @@ const DivCont = styled.div`
   top: 19%;
   left: 28%;
   z-index: 2;
-
 `;
 
 const Stresslevel = styled.div`
-position: relative;
-width: auto;
-height: 34px;
-left: 40%;
-top: 20px;
+  position: relative;
+  width: auto;
+  height: 34px;
+  left: 40%;
+  top: 20px;
 
-font-family: 'Fira Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 19px;
-z-index:2;
-color: #fff;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 19px;
+  z-index: 2;
+  color: #fff;
 `;
 
 const Textstress = styled.div`
@@ -61,38 +60,37 @@ const PercentBar = styled.div`
 `;
 
 const Pointer2 = styled.div`
-position: relative;
-width: 0; 
-height: 0; 
-border-left: 20px solid transparent;
-border-right: 20px solid transparent;
-border-top: 20px solid #41658A;
-z-index:2;
-left: 0%;
-transform: translate(150px);
-transition: 2s;
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #41658a;
+  z-index: 2;
+  left: 0%;
+  transform: translate(150px);
+  transition: 2s;
 `;
 
 const PercentageNumber = styled.div`
-position: relative;
-width: 178px;
-height: 154px;
-left: 36%;
-z-index:2;
-font-family: 'Fira Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 100px;
-line-height: 154px;
-text-align: center;
-color: #f76017;
+  position: relative;
+  width: 178px;
+  height: 154px;
+  left: 36%;
+  z-index: 2;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 154px;
+  text-align: center;
+  color: #f76017;
 `;
-
 
 export default function PersentageCompCH() {
   return (
     <DivCont>
-      <Textstress>Stress Meter</Textstress>
+      <Textstress>Danger Meter</Textstress>
       <Pointer1 />
       <Stresslevel>High</Stresslevel>
       <PercentageNumber>85%</PercentageNumber>
