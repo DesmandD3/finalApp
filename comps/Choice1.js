@@ -23,7 +23,7 @@ export default function Choice1() {
     (<ChoiceButton1> Alcohol</ChoiceButton1>),
     (
       <ChoiceButton1 onClick={() => r.replace({ pathname: "/Forthpage" })}>
-        Financial trouble
+        Kicked Out of the House
       </ChoiceButton1>
     )
   );
