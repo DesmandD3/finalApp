@@ -5,6 +5,8 @@ import SmallNextbutton from "../comps/smNext";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
 import TextBegging from "../comps/Text5_Begbubble";
+import Beg1 from "../comps/Beg";
+import Lamp from "../comps/Lamp";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
@@ -35,6 +37,8 @@ export default function Start() {
       <FullPage>
         <Navbar />
         <Moon />
+        <Lamp />
+        <Beg1 />
         <TextBegging />
         <SmallBackbutton path="/GetBy" />
         <SmallNextbutton path="/5thpage" />
