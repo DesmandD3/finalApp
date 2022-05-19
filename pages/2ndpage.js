@@ -2,7 +2,6 @@ import Leafs from "../comps/leafs";
 import styled from "styled-components";
 import Moon from "../comps/Moon";
 import Man from "../comps/man";
-// import House from "../comps/House";
 import SmallNextbutton from "../comps/smNext";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";

@@ -20,7 +20,7 @@ export default function TextBegging() {
     <div>
       <TextBeg>
         Begging for food and money is a long and degrading task. Sometimes I'll
-        just sit on the sidewalk and just stare into ground. Once and a while
+        sit on the sidewalk and just stare into the ground. Once and a while,
         someone kind will give me some coins. It could be hours until the next
         kind person walks by.
       </TextBeg>

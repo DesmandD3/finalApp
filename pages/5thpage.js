@@ -43,7 +43,7 @@ export default function Start() {
         <Choice3 />
         <Choice2 />
         <Choice4 />
-        <SmallBackbutton path="/4thpage" />
+        <SmallBackbutton path="/GetBy" />
       </FullPage>
     </div>
   );
