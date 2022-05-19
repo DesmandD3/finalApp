@@ -25,9 +25,7 @@ export default function Text4bubble() {
         But narcotics laced with fentanyl make it a deadly gamble and easy to
         die from an overdose.
       </Textbub4>
-      <Textbub4>
-        Let's see what is the <b>Level</b> of stress.
-      </Textbub4>
+      <Textbub4>Let's see what I do to get by.</Textbub4>
     </div>
   );
 }
