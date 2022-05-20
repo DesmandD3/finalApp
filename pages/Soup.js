@@ -14,8 +14,8 @@ const FullPage = styled.div`
     #7d98a1 0%,
     #7d98a1 7.5%,
     #003472 8%,
-    #003472 52%,
-    #758998 52%,
+    #003472 50%,
+    #758998 50%,
     #758998 100%
   );
   text-align: center;
@@ -31,7 +31,7 @@ const FullPage = styled.div`
 
 export default function Start() {
   const SoupVar = {
-    hidden: { opacity: 0},
+    hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: { duration: 2, ease: "easeInOut" },
@@ -44,7 +44,7 @@ export default function Start() {
         <Navbar />
         <Moon />
         <motion.div variants={SoupVar} initial="hidden" animate="visible">
-        <Soup1/>
+          <Soup1 />
         </motion.div>
         <TextSoupKitchens />
         <SmallBackbutton path="/GetBy" />

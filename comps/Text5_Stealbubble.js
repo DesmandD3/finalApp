@@ -11,7 +11,7 @@ const TextSteal = styled.div`
   border-radius: 10px;
   position: relative;
   left: 1px;
-  top: 310px;
+  top: 295px;
   z-index: 2;
 `;
 

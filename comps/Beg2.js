@@ -8,7 +8,7 @@ function Beg2() {
         style={{
           display: "flex",
           position: "absolute",
-          top: 310,
+          top: 270,
           right: 80,
           width: 200,
           zIndex: 2,

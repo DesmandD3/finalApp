@@ -13,7 +13,7 @@ const WayButton2 = styled.button`
   border-width: 2px;
   position: relative;
   left: 60px;
-  top: -10px;
+  top: -35px;
   z-index: 2;
 `;
 

@@ -11,7 +11,7 @@ const TextbubResLow = styled.div`
   border-radius: 10px;
   position: relative;
   left: 1px;
-  top: 350px;
+  top: 330px;
   z-index: 3;
 `;
 
@@ -20,10 +20,10 @@ export default function TextResLow() {
     <div>
       <TextbubResLow>
         This level shows that Kevin is in relatively low danger despite the
-        conditions. He is doing his best to try and survive but just barely.
-        Begging for money and visiting soup kitchens is getting him by, but this
-        is not a long-term solution. Kevin could easily slip into a spiral if he
-        starts committing crimes or abusing substances.
+        conditions. He is doing his best to try and survive. Begging for money
+        and visiting soup kitchens is getting him by, but this is not a
+        long-term solution. Kevin could easily slip into a spiral if he starts
+        committing crimes or abusing substances.
       </TextbubResLow>
     </div>
   );

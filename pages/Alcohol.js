@@ -7,6 +7,7 @@ import Navbar from "../comps/nav/navbar";
 import Text5bubble from "../comps/Text5bubble";
 import Alcohol from "../comps/Alcohol";
 import { motion } from "framer-motion";
+
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
   background: linear-gradient(
@@ -14,8 +15,8 @@ const FullPage = styled.div`
     #7d98a1 0%,
     #7d98a1 7.5%,
     #003472 8%,
-    #003472 65%,
-    #758998 65%,
+    #003472 60%,
+    #758998 60%,
     #758998 100%
   );
   text-align: center;

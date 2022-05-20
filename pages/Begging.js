@@ -16,8 +16,8 @@ const FullPage = styled.div`
     #7d98a1 0%,
     #7d98a1 7.5%,
     #003472 8%,
-    #003472 60%,
-    #758998 60%,
+    #003472 55%,
+    #758998 55%,
     #758998 100%
   );
   text-align: center;
@@ -33,7 +33,7 @@ const FullPage = styled.div`
 
 export default function Start() {
   const BegVar = {
-    hidden: { opacity: 0},
+    hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: { duration: 2, ease: "easeInOut" },
@@ -47,7 +47,7 @@ export default function Start() {
         <Moon />
         <Lamp />
         <motion.div variants={BegVar} initial="hidden" animate="visible">
-        <Beg2 />
+          <Beg2 />
         </motion.div>
         <TextBegging />
         <SmallBackbutton path="/GetBy" />

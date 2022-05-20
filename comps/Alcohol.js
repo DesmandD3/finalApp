@@ -10,7 +10,7 @@ function Alcohol() {
           position: "absolute",
           width: 150,
           left: -70,
-          top: -12,
+          top: -25,
           zIndex: 1,
         }}
         src="/Alcohol.svg"

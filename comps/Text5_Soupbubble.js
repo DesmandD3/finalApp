@@ -11,7 +11,7 @@ const TextSoup = styled.div`
   border-radius: 10px;
   position: relative;
   left: 1px;
-  top: 230px;
+  top: 215px;
   z-index: 2;
 `;
 
