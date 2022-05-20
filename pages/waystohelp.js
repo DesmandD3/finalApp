@@ -34,14 +34,14 @@ const FullPage = styled.div`
 
 export default function Start() {
   const YhouseVar = {
-    hidden: { opacity: 0},
+    hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: { duration: 1, ease: "easeInOut" },
     },
   };
   const SuitVar = {
-    hidden: { opacity: 0},
+    hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: { duration: 5, ease: "easeInOut" },
@@ -53,11 +53,11 @@ export default function Start() {
       <FullPage>
         <Navbar />
         <motion.div variants={YhouseVar} initial="hidden" animate="visible">
-        <Yhouse/>
+          <Yhouse />
         </motion.div>
         <Man4 />
         <motion.div variants={SuitVar} initial="hidden" animate="visible">
-        <Suit />
+          <Suit />
         </motion.div>
         <Text6bubble />
         <SmallNextbutton path="/waystohelp2" />
