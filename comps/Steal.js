@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-function Fist() {
+function Steal() {
   return (
     <div>
       <img
@@ -9,13 +9,13 @@ function Fist() {
           display: "flex",
           position: "absolute",
           width: 200,
-          left: 10,
-          top: 300,
+          left: 70,
+          top: 180,
           zIndex: 3,
         }}
-        src="/Fist.js"
+        src="/Stealing.svg"
       />
     </div>
   );
 }
-export default Fist;
+export default Steal;

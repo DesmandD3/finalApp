@@ -1,21 +1,21 @@
 import React from "react";
 import styled from "styled-components";
 
-function Fist() {
+function Soup1() {
   return (
     <div>
       <img
         style={{
           display: "flex",
           position: "absolute",
-          width: 200,
-          left: 10,
-          top: 300,
+          width: 300,
+          left: 50,
+          top: 200,
           zIndex: 3,
         }}
-        src="/Fist.js"
+        src="/Soup.svg"
       />
     </div>
   );
 }
-export default Fist;
+export default Soup1;

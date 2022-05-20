@@ -4,7 +4,9 @@ import Moon from "../comps/Moon";
 import SmallNextbutton from "../comps/smNext";
 import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
+import Steal from "../comps/Steal";
 import TextStealing from "../comps/Text5_Stealbubble";
+import {motion} from "framer-motion";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
@@ -29,12 +31,22 @@ const FullPage = styled.div`
 `;
 
 export default function Start() {
+  const StealVar = {
+    hidden: { opacity: 0},
+    visible: {
+      opacity: 1,
+      transition: { duration: 2, ease: "easeInOut" },
+    },
+  };
   return (
     <div>
       <Leafs />
       <FullPage>
         <Navbar />
         <Moon />
+        <motion.div variants={StealVar} initial="hidden" animate="visible">
+        <Steal/>
+        </motion.div>
         <TextStealing />
         <SmallBackbutton path="/GetBy" />
         <SmallNextbutton path="/5thpage" />
