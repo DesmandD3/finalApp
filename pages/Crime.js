@@ -6,7 +6,6 @@ import SmallBackbutton from "../comps/smBack";
 import Navbar from "../comps/nav/navbar";
 import Text5bubble2 from "../comps/Text5bubble2";
 import Kuck from "../comps/Kuck";
-import Fist from "../comps/fist";
 import { motion } from "framer-motion";
 
 const FullPage = styled.div`
@@ -50,7 +49,6 @@ export default function Start() {
         <motion.div variants={fistlVar} initial="hidden" animate="visible">
           <Kuck />
         </motion.div>
-        <Fist />
         <Text5bubble2 />
         <SmallBackbutton path="/4thpage" />
         <SmallNextbutton path="/GetBy" />
