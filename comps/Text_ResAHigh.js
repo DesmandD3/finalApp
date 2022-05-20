@@ -22,7 +22,7 @@ export default function TextResHigh() {
         This level shows that Kevin is living his life on the edge. Sadly he is
         prone to using drugs to cope and performing criminal acts regularly. If
         he continues down this path, it will likely lead him to violence, jail
-        and even death.{" "}
+        and even death.
       </TextbubResHigh>
     </div>
   );
