@@ -11,7 +11,7 @@ const TextbubResLow = styled.div`
   border-radius: 10px;
   position: relative;
   left: 1px;
-  top: 380px;
+  top: 350px;
   z-index: 3;
 `;
 

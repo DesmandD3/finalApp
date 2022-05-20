@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Moon from "../comps/Moon";
 import Man2 from "../comps/man2";
 import Navbar from "../comps/nav/navbar";
-import WButton from "../comps/wayButton";
+import WButton2 from "../comps/wayButton2";
 import PersentageCompAL from "../comps/Percentage_a_low";
 import TextResLow from "../comps/Text_ResALow";
 
@@ -39,7 +39,7 @@ export default function Start() {
         <Man2 />
         <TextResLow />
         <PersentageCompAL />
-        <WButton />
+        <WButton2 />
       </FullPage>
     </div>
   );
