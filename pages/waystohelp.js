@@ -36,13 +36,12 @@ export default function Start() {
       <Leafs />
       <FullPage>
         <Navbar />
-        <Man4/>
-        <Suit/>
-        <Text6bubble/>
-        <SmallNextbutton path="/waystohelp2"/>
-        <SmallBackbutton path="/results" />
+        <Man4 />
+        <Suit />
+        <Text6bubble />
+        <SmallNextbutton path="/waystohelp2" />
+        <SmallBackbutton path="/5thpage" />
       </FullPage>
     </div>
   );
 }
-
