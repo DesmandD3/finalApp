@@ -7,6 +7,8 @@ import Text6bubble from "../comps/Text6bubble";
 import Suit from "../comps/Suit";
 import { num } from "../data/globalData";
 import SmallNextbutton from "../comps/smNext";
+import Yhouse from "../comps/Yhouse";
+import { motion } from "framer-motion";
 
 const FullPage = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap");
@@ -31,13 +33,32 @@ const FullPage = styled.div`
 `;
 
 export default function Start() {
+  const YhouseVar = {
+    hidden: { opacity: 0},
+    visible: {
+      opacity: 1,
+      transition: { duration: 1, ease: "easeInOut" },
+    },
+  };
+  const SuitVar = {
+    hidden: { opacity: 0},
+    visible: {
+      opacity: 1,
+      transition: { duration: 5, ease: "easeInOut" },
+    },
+  };
   return (
     <div>
       <Leafs />
       <FullPage>
         <Navbar />
+        <motion.div variants={YhouseVar} initial="hidden" animate="visible">
+        <Yhouse/>
+        </motion.div>
         <Man4 />
+        <motion.div variants={SuitVar} initial="hidden" animate="visible">
         <Suit />
+        </motion.div>
         <Text6bubble />
         <SmallNextbutton path="/waystohelp2" />
         <SmallBackbutton path="/5thpage" />

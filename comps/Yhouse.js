@@ -1,22 +1,21 @@
 import React from "react";
 import styled from "styled-components";
 
-function Suit() {
+function Yhouse() {
   return (
     <div>
       <img
         style={{
           display: "flex",
-          position: "fixed",
-          width:380,
-          top: 140,
-          left:80,
-          zIndex: 3,
+          position: "relative",
+          top: 35,
+          left: 15,
+          width: 400,
           objectFit: "contain",
         }}
-        src="/Suitman.svg"
+        src="/Yhouse1.png"
       />
     </div>
   );
 }
-export default Suit;
+export default Yhouse;
